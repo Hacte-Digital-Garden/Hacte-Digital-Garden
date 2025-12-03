@@ -1,13 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+
+.kotta-one-regular {
+  font-family: "Kotta One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  background-color: #C1FDE6;
+}
+
+main {
+  background-color: #C1FDE6;
+  padding: 2rem;
+}
+
+.content {
+    background-color: #C1FDE6;
+    border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
+    width: 55vw;
+    max-width: none;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-left: 250px;
+
+    @media (max-width: 1400px) {
+      margin-top: 60px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 80vw;
+      
+
+    }
+
+    @media (max-width: 800px) {
+      width: 90vw;
+    }
+}
+
+
+.sidebar {
+    top: 32px;
+    right: 32px;
+    // background-color: #C1FDE6;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 91vh;
+}
+
+.sidebar-container {
+    padding-right: 0px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 91vh;
+}
+
+
+.graph .graph-title {
+  visibility: hidden;
+}
+
+.graph-title-container {
+  height: 0px;
+}
+
+.backlinks {
+    flex: 1;
+    margin-top: 0px;
+    background-color: #C1FDE6;
+    border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
+    border-radius: 0px;
+    padding: 16px;
+}
+
+.force-graph-container {
+  background-color:#C1FDE6;
+  border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
+  border-radius: 0px;
+}
+
+.filetree-sidebar {
+    margin: 0;
+    padding: 12px;
+    top: 0px;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    background-color:#C1FDE6;
+    color: var(--text-muted);
+    overflow-y: auto;
+    width: 250px;
+    border-right: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
+}
+
+
+
+// TYPE
+
+h1 {
+  font-family: monospace;
+  font-weight: 400;
+  font-style: normal;
 }
