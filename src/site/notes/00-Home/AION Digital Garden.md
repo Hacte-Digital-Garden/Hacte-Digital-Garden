@@ -1,7 +1,7 @@
 ---
 {"dg-publish":true,"permalink":"/00-home/aion-digital-garden/","tags":["gardenEntry"],"created":"2025-11-17T16:59:57.392+01:00","updated":"2025-12-01T17:03:36.762+01:00"}
 ---
-
+# AION
 
 Welcome to the AION project digital garden...
 

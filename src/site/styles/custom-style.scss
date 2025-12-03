@@ -1,13 +1,14 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  background-color: #C1FDE6;
+  // background-image: url('../_includes/img/background.png');
+  background-size: cover; // Makes image cover entire viewport
+  background-position: center; // Centers the image
+  background-repeat: no-repeat; // Prevents tiling
+  background-attachment: fixed; // Keeps background fixed while scrolling (optional)
+  --background-secondary: #C1FDE6;
+}
+
+.content {
+  background-color: #C1FDE6;
+  padding: 40px;
 }
