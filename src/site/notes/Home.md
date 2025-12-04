@@ -3,37 +3,43 @@
 ---
 
 
-Welcome to the AION project digital garden...
+Welcome to the HACTE digital garden project digital garden...
 
-## Navigate the Project
+...about this digital space...
 
-### 🧠 [[AION/02-Conceptual/Error/00 - Error - Map of Content\|Conceptual - Error]]
+
+![TEST](../img/16_9-ca.png)
+
+
+## Navigate the Project — AION
+
+### [[AION/Conceptual/Error/00 - Error - Map of Content\|Conceptual - Error]]
 Explore autoethnographic perspectives on error
-- [[AION/02-Conceptual/Error/Autoetnografia-Lara\|Autoetnografia-Lara]]
-- [[AION/02-Conceptual/Error/Autoetnografia-Margherita\|Autoetnografia-Margherita]]
-- [[AION/02-Conceptual/Error/Hallazgos-y-Aprendizajes-Error\|Hallazgos-y-Aprendizajes-Error]]
+- [[AION/Conceptual/Error/Autoetnografia-Lara\|Autoetnografia-Lara]]
+- [[AION/Conceptual/Error/Autoetnografia-Margherita\|Autoetnografia-Margherita]]
+- [[AION/Conceptual/Error/Hallazgos-y-Aprendizajes-Error\|Hallazgos-y-Aprendizajes-Error]]
 
-### 🌀 [[AION/02-Conceptual/Incertidumbre/00 - Incertidumbre - Map of Content\|Conceptual - Incertidumbre]]
+### [[AION/Conceptual/Incertidumbre/00 - Incertidumbre - Map of Content\|Conceptual - Incertidumbre]]
 Explore autoethnographic perspectives on uncertainty
-- [[AION/02-Conceptual/Incertidumbre/Autoetnografia-Markus\|Autoetnografia-Markus]]
-- [[AION/02-Conceptual/Incertidumbre/Autoetnografia-Pedro\|Autoetnografia-Pedro]]
-- [[AION/02-Conceptual/Incertidumbre/Hallazgos-y-Aprendizajes-Incertidumbre\|Hallazgos-y-Aprendizajes-Incertidumbre]]
+- [[AION/Conceptual/Incertidumbre/Autoetnografia-Markus\|Autoetnografia-Markus]]
+- [[AION/Conceptual/Incertidumbre/Autoetnografia-Pedro\|Autoetnografia-Pedro]]
+- [[AION/Conceptual/Incertidumbre/Hallazgos-y-Aprendizajes-Incertidumbre\|Hallazgos-y-Aprendizajes-Incertidumbre]]
 
-### 🛠️ [[AION/05-Operativizar/Operativizar\|Operativizar]]
+### [[AION/Operativizar/Operativizar\|Operativizar]]
 Practical toolkits and applications
-- [[AION/05-Operativizar/Toolkit-Error\|Toolkit-Error]]
-- [[AION/05-Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]]
+- [[AION/Operativizar/Toolkit-Error\|Toolkit-Error]]
+- [[AION/Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]]
 
-### 🎭 [[AION/03-Apertura/Apertura\|Apertura]]
+### [[AION/Apertura/Apertura\|Apertura]]
 Open sessions and collective outcomes
-- [[AION/03-Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]]
-- [[AION/03-Apertura/Charla-Resumen\|Charla-Resumen]]
-- [[AION/03-Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]]
-- [[AION/03-Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]]
+- [[AION/Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]]
+- [[AION/Apertura/Charla-Resumen\|Charla-Resumen]]
+- [[AION/Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]]
+- [[AION/Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]]
 
-### 🔄 [[AION/04-Intermedios/Intermedios\|Intermedios]]
+### [[AION/Intermedios/Intermedios\|Intermedios]]
 Process reflections and emergent connections
 
 
-## [[AION/01-About/About\|About]]
+## [[AION/About\|About]]
 
