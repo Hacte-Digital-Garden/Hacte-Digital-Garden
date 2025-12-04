@@ -5,13 +5,13 @@
 
 > _A comprehensive view of all content exploring the concept of Uncertainty (Incertidumbre) within the AION project_
 
-## 🎯 Overview
+## Overview
 
 This Map of Content (MOC) connects all materials, reflections, and tools related to **Incertidumbre** (Uncertainty) as a conceptual and practical framework in the AION project.
 
 ---
 
-## 📖 Conceptual Explorations
+## Conceptual Explorations
 
 ### Autoethnographic Narratives
 
@@ -26,7 +26,7 @@ Personal experiences and reflections on uncertainty:
 
 ---
 
-## 🛠️ Practical Applications
+## Practical Applications
 
 ### Tools & Methods
 
@@ -34,7 +34,7 @@ Personal experiences and reflections on uncertainty:
 
 ---
 
-## 🎭 Open Sessions & Outcomes
+## Open Sessions & Outcomes
 
 Uncertainty emerged and was discussed in these apertura sessions:
 
@@ -45,7 +45,7 @@ Uncertainty emerged and was discussed in these apertura sessions:
 
 ---
 
-## 🔄 Cross-References
+## Cross-References
 
 **Related concepts:**
 
@@ -59,32 +59,5 @@ Uncertainty emerged and was discussed in these apertura sessions:
 - Uncertainty as creative space
 - [Add your emerging themes here]
 
----
-
-## 📊 Visual Overview
-
-mermaid
-
-```mermaid
-graph TD
-    A[Incertidumbre] --> B[Conceptual]
-    A --> C[Operativizar]
-    A --> D[Apertura]
-    B --> E[Autoetnografia Markus]
-    B --> F[Autoetnografia Pedro]
-    B --> G[Hallazgos y Aprendizajes]
-    C --> H[Toolkit Incertidumbre]
-    D --> I[Gabinete/Charla/Mesas]
-```
-
----
-
-## 📝 Quick Notes
-
-_Use this space for quick connections, questions, or insights:_
-
----
 
 **Tags:** #MOC #incertidumbre #overview
-
-**Last Updated:** [Date]

@@ -7,11 +7,10 @@ Lara, bio + links, image
 
 Margherita, bio + link, image
 
-Markus
+Markus, bio + link, image
 
-Pedro
+Pedro, bio + link, image
 
-Andreu
+Andreu, bio + link, image
 
-
-etc...
+...

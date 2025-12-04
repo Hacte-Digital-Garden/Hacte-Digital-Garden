@@ -5,13 +5,13 @@
 
 > A comprehensive view of all content exploring the concept of Error within the AION project_
 
-## 🎯 Overview
+## Overview
 
 This Map of Content (MOC) connects all materials, reflections, and tools related to **Error** as a conceptual and practical framework in the AION project.
 
 ---
 
-## 📖 Conceptual Explorations
+## Conceptual Explorations
 
 ### Autoethnographic Narratives
 
@@ -26,7 +26,7 @@ Personal experiences and reflections on error:
 
 ---
 
-## 🛠️ Practical Applications
+## Practical Applications
 
 ### Tools & Methods
 
@@ -34,7 +34,7 @@ Personal experiences and reflections on error:
 
 ---
 
-## 🎭 Open Sessions & Outcomes
+## Open Sessions & Outcomes
 
 Error emerged and was discussed in these apertura sessions:
 
@@ -45,7 +45,7 @@ Error emerged and was discussed in these apertura sessions:
 
 ---
 
-## 🔄 Cross-References
+## Cross-References
 
 **Related concepts:**
 
@@ -61,30 +61,5 @@ Error emerged and was discussed in these apertura sessions:
 
 ---
 
-## 📊 Visual Overview
-
-mermaid
-
-```mermaid
-graph TD
-    A[Error] --> B[Conceptual]
-    A --> C[Operativizar]
-    A --> D[Apertura]
-    B --> E[Autoetnografia Lara]
-    B --> F[Autoetnografia Margherita]
-    B --> G[Hallazgos y Aprendizajes]
-    C --> H[Toolkit Error]
-    D --> I[Gabinete/Charla/Mesas]
-```
-
----
-
-## 📝 Quick Notes
-
-_Use this space for quick connections, questions, or insights:_
-
----
-
 **Tags:** #MOC #error #overview
 
-**Last Updated:** [Date]
