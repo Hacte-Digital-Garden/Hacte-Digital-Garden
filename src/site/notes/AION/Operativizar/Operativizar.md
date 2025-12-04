@@ -4,5 +4,5 @@
 
 Practical toolkits and applications
 
-[[AION/05-Operativizar/Toolkit-Error\|Toolkit-Error]]
-[[AION/05-Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]]
+[[AION/Operativizar/Toolkit-Error\|Toolkit-Error]]
+[[AION/Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]]

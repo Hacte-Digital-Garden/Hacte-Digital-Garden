@@ -4,8 +4,8 @@
 
 Open sessions and collective outcomes
 
-[[AION/03-Apertura/Charla-Resumen\|Charla-Resumen]]
-[[AION/03-Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]]
-[[AION/03-Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]]
-[[AION/03-Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]]
+[[AION/Apertura/Charla-Resumen\|Charla-Resumen]]
+[[AION/Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]]
+[[AION/Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]]
+[[AION/Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]]
 

@@ -17,12 +17,12 @@ This Map of Content (MOC) connects all materials, reflections, and tools related
 
 Personal experiences and reflections on uncertainty:
 
-- [[AION/02-Conceptual/Incertidumbre/Autoetnografia-Markus\|Autoetnografia-Markus]] - #autoetnografia #incertidumbre
-- [[AION/02-Conceptual/Incertidumbre/Autoetnografia-Pedro\|Autoetnografia-Pedro]] - #autoetnografia #incertidumbre
+- [[AION/Conceptual/Incertidumbre/Autoetnografia-Markus\|Autoetnografia-Markus]] - #autoetnografia #incertidumbre
+- [[AION/Conceptual/Incertidumbre/Autoetnografia-Pedro\|Autoetnografia-Pedro]] - #autoetnografia #incertidumbre
 
 ### Collective Learning
 
-- [[AION/02-Conceptual/Incertidumbre/Hallazgos-y-Aprendizajes-Incertidumbre\|Hallazgos-y-Aprendizajes-Incertidumbre]] - Findings and learnings from tandem work #incertidumbre
+- [[AION/Conceptual/Incertidumbre/Hallazgos-y-Aprendizajes-Incertidumbre\|Hallazgos-y-Aprendizajes-Incertidumbre]] - Findings and learnings from tandem work #incertidumbre
 
 ---
 
@@ -30,7 +30,7 @@ Personal experiences and reflections on uncertainty:
 
 ### Tools & Methods
 
-- [[AION/05-Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]] - Operational tools for navigating uncertainty #toolkit #incertidumbre
+- [[AION/Operativizar/Toolkit-Incertidumbre\|Toolkit-Incertidumbre]] - Operational tools for navigating uncertainty #toolkit #incertidumbre
 
 ---
 
@@ -38,10 +38,10 @@ Personal experiences and reflections on uncertainty:
 
 Uncertainty emerged and was discussed in these apertura sessions:
 
-- [[AION/03-Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]] - Results cabinet #apertura
-- [[AION/03-Apertura/Charla-Resumen\|Charla-Resumen]] - Summary talk #apertura
-- [[AION/03-Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]] - Conclusion tables #apertura
-- [[AION/03-Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]] - Organization and contrast #apertura
+- [[AION/Apertura/Gabinete-de-Resultados\|Gabinete-de-Resultados]] - Results cabinet #apertura
+- [[AION/Apertura/Charla-Resumen\|Charla-Resumen]] - Summary talk #apertura
+- [[AION/Apertura/Mesas-de-Conclusiones\|Mesas-de-Conclusiones]] - Conclusion tables #apertura
+- [[AION/Apertura/Ordenacion-y-Contraste\|Ordenacion-y-Contraste]] - Organization and contrast #apertura
 
 ---
 
@@ -49,8 +49,8 @@ Uncertainty emerged and was discussed in these apertura sessions:
 
 **Related concepts:**
 
-- [[AION/02-Conceptual/Error/00 - Error - Map of Content\|00 - Error - Map of Content]] - Explore the relationship between Uncertainty and Error
-- [[AION/04-Intermedios/Intermedios\|Intermedios]] - Process reflections connecting uncertainty themes
+- [[AION/Conceptual/Error/00 - Error - Map of Content\|00 - Error - Map of Content]] - Explore the relationship between Uncertainty and Error
+- [[AION/Intermedios/Intermedios\|Intermedios]] - Process reflections connecting uncertainty themes
 
 **Key themes emerging from Incertidumbre:**
 

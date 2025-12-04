@@ -9,21 +9,19 @@
 
 body {
   //background-color: #C1FDE6;
-  background-image: url(../site/img/16_9-ca.png) !important;
-  /* background-repeat: no-repeat;
-  background-size: 100% 100%;
-  float: left;
-  width: auto;
- */
+  background-image: url(../img/background-image.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center;
 }
 
 main {
-  background-color:#c1fde69c;
   padding: 2rem;
 }
 
 .content {
-    background-color: #C1FDE6;
+    background-color: rgba($color: #C1FDE6, $alpha: 0.9) !important;
     border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
     width: 55vw;
     max-width: none;
