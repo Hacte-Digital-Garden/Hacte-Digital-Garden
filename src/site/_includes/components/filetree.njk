@@ -22,17 +22,15 @@
         {%endif%}
     {% endmacro %}
     
-    <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
-            x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" 
-            x-data="{isDesktop: true, showFilesMobile: false}">
+    <div x-data="{showFilesMobile: false}">
 
-        <div x-show.important="!isDesktop" style="display: none;">
+        <div>
             {%include "components/filetreeNavbar.njk"%}
         </div>
-        
-        <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
 
-      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        <div x-show="showFilesMobile" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
+
+      <nav class="filetree-sidebar"  x-show.important="showFilesMobile" style="display: none;">
         {% for imp in dynamics.filetree.beforeTitle %}
             {% include imp %}
         {% endfor %}
