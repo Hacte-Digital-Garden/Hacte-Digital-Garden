@@ -1,0 +1,427 @@
+<script>
+// Stacked Pages Manager
+window.StackedPagesManager = {
+    // Configuration
+    config: {
+        maxStacks: 5,
+        stackWidth: 625,
+        enableMobile: false,
+        animationSpeed: 200,
+        persistState: true,
+        historyIntegration: true
+    },
+
+    // Content cache (LRU with max 20 items)
+    contentCache: new Map(),
+    MAX_CACHE_SIZE: 20,
+
+    // Initialize on page load
+    init() {
+        // Restore state from URL or sessionStorage
+        const urlStacks = this.getStacksFromURL();
+        const currentPath = window.location.pathname;
+
+        return {
+            stacks: urlStacks.length > 0 ? urlStacks : [{
+                url: currentPath,
+                title: document.querySelector('h1')?.textContent || 'Note',
+                content: null, // null means use current page content
+                scrollTop: 0,
+                isActive: true,
+                isLoading: false
+            }],
+            activeIndex: 0,
+
+            // Open a new page in the stack
+            async openPage(url, event) {
+                // Prevent default navigation
+                if (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+
+                console.log('Opening page:', url);
+
+                // Check if already open
+                const existingIndex = this.stacks.findIndex(s => s.url === url);
+                if (existingIndex !== -1) {
+                    console.log('Page already open, switching to it');
+                    this.setActive(existingIndex);
+                    this.scrollToStack(existingIndex);
+                    return;
+                }
+
+                // Enforce max stacks limit
+                if (this.stacks.length >= window.StackedPagesManager.config.maxStacks) {
+                    // Remove the oldest non-active stack
+                    const removeIndex = this.stacks.findIndex((s, i) => i !== this.activeIndex);
+                    if (removeIndex !== -1) {
+                        this.stacks.splice(removeIndex, 1);
+                        if (removeIndex < this.activeIndex) {
+                            this.activeIndex--;
+                        }
+                    }
+                }
+
+                // Add new stack with loading state IMMEDIATELY for instant feedback
+                const newStack = {
+                    url: url,
+                    title: 'Loading...',
+                    content: '<div class="loading-skeleton"><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line"></div></div>',
+                    scrollTop: 0,
+                    isActive: false,
+                    isLoading: true
+                };
+
+                this.stacks.push(newStack);
+                const newIndex = this.stacks.length - 1;
+
+                // Immediately scroll to show the loading state
+                this.$nextTick(() => {
+                    this.scrollToStack(newIndex);
+                });
+
+                // Load content
+                try {
+                    const pageData = await window.StackedPagesManager.loadPageContent(url);
+                    this.stacks[newIndex] = {
+                        ...this.stacks[newIndex],
+                        title: pageData.title,
+                        content: pageData.content,
+                        isLoading: false
+                    };
+
+                    // Set as active and scroll to it
+                    this.setActive(newIndex);
+
+                    // Update browser history
+                    if (window.StackedPagesManager.config.historyIntegration) {
+                        this.updateHistory();
+                    }
+
+                    // Re-initialize scripts in the new content
+                    this.$nextTick(() => {
+                        this.initializeStackScripts(newIndex);
+                        this.scrollToStack(newIndex);
+                    });
+
+                } catch (error) {
+                    console.error('Failed to load page:', error);
+                    this.stacks[newIndex] = {
+                        ...this.stacks[newIndex],
+                        title: 'Error Loading Page',
+                        content: '<div class="error-message">Failed to load page content. Please try again.</div>',
+                        isLoading: false
+                    };
+                }
+            },
+
+            // Close a stack
+            closeStack(index) {
+                if (this.stacks.length === 1) {
+                    // Don't close the last stack
+                    return;
+                }
+
+                this.stacks.splice(index, 1);
+
+                // Adjust active index
+                if (index < this.activeIndex) {
+                    this.activeIndex--;
+                } else if (index === this.activeIndex) {
+                    // Set the previous stack as active, or the next one if it was the first
+                    this.activeIndex = Math.max(0, index - 1);
+                }
+
+                // Update browser history
+                if (window.StackedPagesManager.config.historyIntegration) {
+                    this.updateHistory();
+                }
+            },
+
+            // Set active stack
+            setActive(index) {
+                this.stacks.forEach((stack, i) => {
+                    stack.isActive = (i === index);
+                });
+                this.activeIndex = index;
+            },
+
+            // Scroll to specific stack
+            scrollToStack(index) {
+                this.$nextTick(() => {
+                    const container = document.getElementById('stacked-pages-container');
+                    const stack = container?.querySelectorAll('.note-stack')[index];
+                    if (stack) {
+                        stack.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' });
+                    }
+                });
+            },
+
+            // Initialize scripts for a specific stack (optimized)
+            initializeStackScripts(index) {
+                const stackElement = document.querySelectorAll('.note-stack')[index];
+                if (!stackElement) return;
+
+                // Re-initialize Lucide icons only in the new stack (much faster)
+                if (window.lucide) {
+                    const icons = stackElement.querySelectorAll('[icon-name]');
+                    icons.forEach(icon => {
+                        if (!icon.querySelector('svg')) {
+                            const iconName = icon.getAttribute('icon-name');
+                            const svgElement = window.lucide.createElement(window.lucide.icons[iconName]);
+                            if (svgElement) {
+                                icon.appendChild(svgElement);
+                            }
+                        }
+                    });
+                }
+
+                // Re-attach internal link handlers (event delegation is better, but this works)
+                stackElement.querySelectorAll('.internal-link').forEach(link => {
+                    // Only attach if not already attached
+                    if (!link.hasAttribute('data-stack-link')) {
+                        link.setAttribute('data-stack-link', 'true');
+                        link.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            this.openPage(link.getAttribute('href'), e);
+                        });
+                    }
+                });
+
+                // Re-initialize Alpine.js only if necessary
+                if (window.Alpine && stackElement.querySelectorAll('[x-data]').length > 0) {
+                    window.Alpine.initTree(stackElement);
+                }
+            },
+
+            // Update browser history
+            updateHistory() {
+                const stackUrls = this.stacks.map(s => s.url).join(',');
+                const newUrl = `${this.stacks[this.activeIndex].url}#stacks=${encodeURIComponent(stackUrls)}`;
+                window.history.pushState({ stacks: stackUrls }, '', newUrl);
+            },
+
+            // Handle scroll position saving
+            saveScrollPosition(index) {
+                const stackElement = document.querySelectorAll('.note-stack')[index];
+                if (stackElement) {
+                    this.stacks[index].scrollTop = stackElement.scrollTop;
+                }
+            },
+
+            // Restore scroll position
+            restoreScrollPosition(index) {
+                this.$nextTick(() => {
+                    const stackElement = document.querySelectorAll('.note-stack')[index];
+                    if (stackElement && this.stacks[index].scrollTop) {
+                        stackElement.scrollTop = this.stacks[index].scrollTop;
+                    }
+                });
+            }
+        };
+    },
+
+    // Load page content via fetch (optimized)
+    async loadPageContent(url) {
+        // Check cache first
+        if (this.contentCache.has(url)) {
+            console.log('Using cached content for:', url);
+            return this.contentCache.get(url);
+        }
+
+        console.time('Fetch ' + url);
+
+        try {
+            // Use AbortController for timeout
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), 10000); // 10s timeout
+
+            const response = await fetch(url, { signal: controller.signal });
+            clearTimeout(timeoutId);
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const html = await response.text();
+            console.timeEnd('Fetch ' + url);
+            console.time('Parse ' + url);
+
+            // Create a temporary container for faster parsing
+            const temp = document.createElement('div');
+            temp.innerHTML = html;
+
+            // Extract only what we need (faster than DOMParser for our use case)
+            const title = temp.querySelector('h1')?.textContent?.trim() ||
+                         temp.querySelector('title')?.textContent?.trim() ||
+                         'Untitled';
+
+            // Get the main content
+            const contentElement = temp.querySelector('main.content');
+
+            if (!contentElement) {
+                throw new Error('No content element found');
+            }
+
+            // Clone the content to avoid issues
+            const content = contentElement.innerHTML;
+
+            console.timeEnd('Parse ' + url);
+
+            const pageData = { title, content };
+
+            // Add to cache
+            this.contentCache.set(url, pageData);
+
+            // Enforce cache size limit (LRU)
+            if (this.contentCache.size > this.MAX_CACHE_SIZE) {
+                const firstKey = this.contentCache.keys().next().value;
+                this.contentCache.delete(firstKey);
+            }
+
+            console.log('Successfully loaded:', url);
+            return pageData;
+
+        } catch (error) {
+            if (error.name === 'AbortError') {
+                console.error('Request timeout for:', url);
+                throw new Error('Request timed out');
+            }
+            console.error('Error fetching page:', error);
+            throw error;
+        }
+    },
+
+    // Get stacks from URL hash
+    getStacksFromURL() {
+        const hash = window.location.hash;
+        if (!hash.includes('#stacks=')) {
+            return [];
+        }
+
+        try {
+            const stacksParam = hash.split('#stacks=')[1];
+            const urls = decodeURIComponent(stacksParam).split(',');
+            return urls.map((url, index) => ({
+                url: url,
+                title: 'Loading...',
+                content: null,
+                scrollTop: 0,
+                isActive: index === urls.length - 1,
+                isLoading: false
+            }));
+        } catch (error) {
+            console.error('Error parsing stacks from URL:', error);
+            return [];
+        }
+    }
+};
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', (event) => {
+    if (event.state && event.state.stacks) {
+        // Reload the page to restore state
+        window.location.reload();
+    }
+});
+</script>
+
+<div
+    id="stacked-pages-container"
+    x-data="window.StackedPagesManager.init()"
+    @keydown.arrow-left.window="if (activeIndex > 0) { setActive(activeIndex - 1); scrollToStack(activeIndex); }"
+    @keydown.arrow-right.window="if (activeIndex < stacks.length - 1) { setActive(activeIndex + 1); scrollToStack(activeIndex); }"
+>
+    <template x-for="(stack, index) in stacks" :key="stack.url">
+        <div
+            class="note-stack"
+            :class="{ 'is-active': stack.isActive, 'is-loading': stack.isLoading }"
+            @click="setActive(index)"
+            @scroll.debounce.500ms="saveScrollPosition(index)"
+            x-init="if (stack.content) { $nextTick(() => initializeStackScripts(index)) }"
+        >
+            <!-- Close button -->
+            <button
+                class="close-note-button"
+                @click.stop="closeStack(index)"
+                :aria-label="'Close ' + stack.title"
+                x-show="stacks.length > 1"
+            >
+                <i icon-name="x" aria-hidden="true"></i>
+            </button>
+
+            <!-- Obstructed label (shows when partially hidden) -->
+            <div class="obstructed-label" x-text="stack.title"></div>
+
+            <!-- Stack content -->
+            <div class="note-stack-content">
+                <template x-if="stack.content === null">
+                    <!-- Current page - use existing DOM -->
+                    <div>
+                        {% if settings.dgShowInlineTitle === true %}
+                          <h1 data-note-icon="{% if noteIcon %}{{noteIcon}}{% else %}{{meta.noteIconsSettings.default}}{% endif %}">
+                            {% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}
+                          </h1>
+                        {% endif %}
+                        <div class="header-meta">
+                          {% if settings.dgShowTags === true and tags %}
+                            <div class="header-tags">
+                              {% for tag in tags %}
+                                {% if tag != 'gardenEntry' and tag !='note' %}
+                                  <a class="tag" onclick="toggleTagSearch(this)">
+                                    #{{tag}}
+                                  </a>
+                                {% endif %}
+                              {% endfor %}
+                            </div>
+                          {% endif %}
+                          {%- if meta.timestampSettings.showCreated or meta.timestampSettings.showUpdated -%}
+                          <div class="timestamps">
+                            {%- if meta.timestampSettings.showCreated and created -%}
+                            <div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="{{created}}"></span></div>
+                            {%- endif -%}
+                            {%- if meta.timestampSettings.showUpdated and updated -%}
+                            <div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="{{updated}}"></span></div>
+                            {%- endif -%}
+                          </div>
+                          {%- endif -%}
+                        </div>
+                        {{ content | hideDataview | taggify | link | safe}}
+                    </div>
+                </template>
+
+                <template x-if="stack.content !== null">
+                    <!-- Dynamically loaded content -->
+                    <div>
+                        <div x-show="stack.isLoading" class="loading-indicator">
+                            <p>Loading page...</p>
+                        </div>
+                        <div x-show="!stack.isLoading" x-html="stack.content"></div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </template>
+
+    <!-- Mobile navigation controls -->
+    <div class="mobile-stack-nav" x-show="stacks.length > 1" style="display: none;">
+        <button
+            @click="if (activeIndex > 0) { setActive(activeIndex - 1); scrollToStack(activeIndex); }"
+            :disabled="activeIndex === 0"
+            aria-label="Previous stack"
+        >
+            <i icon-name="chevron-left" aria-hidden="true"></i>
+        </button>
+
+        <div class="stack-counter" x-text="`${activeIndex + 1} / ${stacks.length}`"></div>
+
+        <button
+            @click="if (activeIndex < stacks.length - 1) { setActive(activeIndex + 1); scrollToStack(activeIndex); }"
+            :disabled="activeIndex === stacks.length - 1"
+            aria-label="Next stack"
+        >
+            <i icon-name="chevron-right" aria-hidden="true"></i>
+        </button>
+    </div>
+</div>

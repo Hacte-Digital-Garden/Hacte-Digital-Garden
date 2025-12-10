@@ -1,0 +1,170 @@
+<script>
+// Navigation Interceptor for Stacked Pages
+(function() {
+    'use strict';
+
+    // Wait for DOM and Alpine to be ready
+    document.addEventListener('DOMContentLoaded', function() {
+        initNavigationInterceptor();
+    });
+
+    function initNavigationInterceptor() {
+        // Get the Alpine component instance
+        function getStackManager() {
+            const container = document.getElementById('stacked-pages-container');
+            return container ? window.Alpine.$data(container) : null;
+        }
+
+        // Helper to check if link is internal
+        function isInternalLink(url) {
+            if (!url) return false;
+
+            // Check if it's a relative URL or same host
+            try {
+                const linkUrl = new URL(url, window.location.origin);
+                return linkUrl.host === window.location.host;
+            } catch (e) {
+                // If URL parsing fails, assume it's relative (internal)
+                return !url.startsWith('http://') && !url.startsWith('https://');
+            }
+        }
+
+        // Helper to check modifier keys (for opening in new tab)
+        function hasModifierKey(event) {
+            return event.metaKey || event.ctrlKey || event.shiftKey || event.button !== 0;
+        }
+
+        // Main click handler
+        function handleLinkClick(event) {
+            const target = event.target.closest('a');
+            if (!target) return;
+
+            const href = target.getAttribute('href');
+
+            // Ignore if no href or if it's a hash-only link on same page
+            if (!href) return;
+            if (href.startsWith('#')) return;
+
+            // Allow default behavior for external links
+            if (!isInternalLink(href)) return;
+
+            // Allow default behavior if modifier keys are pressed (open in new tab)
+            if (hasModifierKey(event)) return;
+
+            // Check if target has specific classes that should be intercepted
+            const shouldIntercept = target.classList.contains('internal-link') ||
+                                   target.closest('.backlink-card') ||
+                                   target.closest('.searchresult') ||
+                                   target.closest('.notelink');
+
+            if (shouldIntercept) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                const stackManager = getStackManager();
+                if (stackManager && stackManager.openPage) {
+                    stackManager.openPage(href, event);
+                } else {
+                    console.warn('Stack manager not found, falling back to default navigation');
+                    window.location.href = href;
+                }
+            }
+        }
+
+        // Intercept graph node clicks
+        function interceptGraphClicks() {
+            // Store original renderGraph function
+            if (window.renderGraph) {
+                const originalRenderGraph = window.renderGraph;
+                window.renderGraph = function(graphData, id, delay, fullScreen) {
+                    const graph = originalRenderGraph(graphData, id, delay, fullScreen);
+
+                    // Override the onNodeClick handler
+                    if (graph) {
+                        graph.onNodeClick(node => {
+                            const stackManager = getStackManager();
+                            if (stackManager && stackManager.openPage) {
+                                stackManager.openPage(node.url);
+                            } else {
+                                window.location = node.url;
+                            }
+                        });
+                    }
+
+                    return graph;
+                };
+            }
+        }
+
+        // Intercept search result clicks
+        function interceptSearchClicks() {
+            // Override the navigateToResult function if it exists
+            if (typeof window.navigateToResult !== 'undefined') {
+                const originalNavigateToResult = window.navigateToResult;
+                window.navigateToResult = function(url) {
+                    const stackManager = getStackManager();
+                    if (stackManager && stackManager.openPage) {
+                        window.toggleSearch(); // Close search
+                        stackManager.openPage(url);
+                    } else {
+                        originalNavigateToResult(url);
+                    }
+                };
+            }
+
+            // Also intercept direct clicks on search results
+            document.addEventListener('click', function(event) {
+                const searchResult = event.target.closest('.searchresult');
+                if (searchResult) {
+                    const link = searchResult.querySelector('.search-link');
+                    if (link) {
+                        event.preventDefault();
+                        event.stopPropagation();
+
+                        const stackManager = getStackManager();
+                        if (stackManager && stackManager.openPage) {
+                            window.toggleSearch(); // Close search
+                            stackManager.openPage(link.getAttribute('href'));
+                        }
+                    }
+                }
+            }, true);
+        }
+
+        // Attach event delegation for link clicks
+        document.addEventListener('click', handleLinkClick, true);
+
+        // Intercept graph and search
+        interceptGraphClicks();
+        interceptSearchClicks();
+
+        // Show keyboard navigation hint on first load
+        showKeyboardHint();
+
+        console.log('Navigation interceptor initialized');
+    }
+
+    // Show keyboard navigation hint briefly
+    function showKeyboardHint() {
+        const hint = document.createElement('div');
+        hint.className = 'stack-navigation-hint show';
+        hint.textContent = 'Use ← → arrow keys to navigate between stacks';
+        document.body.appendChild(hint);
+
+        setTimeout(() => {
+            hint.classList.remove('show');
+            setTimeout(() => hint.remove(), 300);
+        }, 3000);
+    }
+
+    // Handle tag search clicks (special case)
+    const originalToggleTagSearch = window.toggleTagSearch;
+    if (originalToggleTagSearch) {
+        window.toggleTagSearch = function(evt) {
+            originalToggleTagSearch(evt);
+            // Tag search just opens the search modal, which then uses intercepted search
+        };
+    }
+
+})();
+</script>
