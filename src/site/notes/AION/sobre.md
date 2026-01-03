@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aion/01-about/about/","pinned":true,"created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+{"dg-publish":true,"permalink":"/aion/sobre/","title":"Sobre","pinned":true,"created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
 
 ![imagem](../../../img/16_9-ca.png)
@@ -33,22 +33,3 @@ Open sessions and collective outcomes
 
 ### [[AION/Intermedios/Intermedios\|Intermedios]]
 Process reflections and emergent connections
-
-
-## [[AION/About\|About]]
-
-
-
-
-
-Lara, bio + links, image
-
-Margherita, bio + link, image
-
-Markus, bio + link, image
-
-Pedro, bio + link, image
-
-Andreu, bio + link, image
-
-...
