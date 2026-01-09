@@ -5,6 +5,96 @@
 //@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=VT323&display=swap');
 
+// TWK Everett Font Family
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Regular.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Regular.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-RegularItalic.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-RegularItalic.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Light.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Light.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-LightItalic.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-LightItalic.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Medium.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Medium.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-MediumItalic.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-MediumItalic.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Bold.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Bold.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BoldItalic.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BoldItalic.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Black.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Black.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TWK Everett';
+  src: url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BlackItalic.woff2') format('woff2'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BlackItalic.woff') format('woff'),
+       url('/_includes/fonts/TWK-Everett-Family/TWKEverett-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
 
 // .kotta-one-regular {
 //   font-family: "Kotta One", serif;
@@ -166,7 +256,8 @@ svg {
 
 .navbar h1,
 .filetree-sidebar h1 {
-  font-family: 'VT323', monospace !important;
+  font-family: 'TWK Everett', sans-serif !important;
+  font-weight: 700;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -188,6 +279,7 @@ svg {
   flex-direction: column;
   text-align: center;
   margin: 0;
+  font-size: 1.8rem !important;
 
   &::before {
   width: 130px;
@@ -195,7 +287,8 @@ svg {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'VT323', monospace !important;
+  font-family: 'TWK Everett', sans-serif !important;
+  font-weight: 400;
   //color: #ffffff !important;
 }
 
@@ -214,13 +307,15 @@ a {
 
 body {
   font-family: 'Space Mono', monospace !important;
-  letter-spacing: -0.02em;
+  font-size: 1rem;
+  letter-spacing: -0.05em;
   --color-accent: #0000FF !important;
 }
 
 * {
   font-family: 'Space Mono', monospace !important;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.05em;
+  font-size: 1rem;
   --color-accent: #0000FF !important;
 }
 

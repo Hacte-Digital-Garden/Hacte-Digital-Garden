@@ -10,11 +10,9 @@
 }
 ---
 
-Welcome to the HACTE digital garden project digital garden...
+# Intro Digital Garden
 
-...about this digital space...
+Benvingut / Benvinguda al Digital Garden d’Hacte
+
 
 ### [[AION/sobre|AION]]
-
-
-test
