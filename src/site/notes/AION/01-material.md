@@ -2,13 +2,6 @@
 {"dg-publish":true,"permalink":"/aion/material/","title":"Metodologia i Material de treball","created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
 
-to do:
-- Quadern autoetnografia (imprimible i consulta online)
-- Bibliografia
-
-
-# Metodologia
-
 En tant que procés de recerca col·laborativa i experimental, AION s’ha guiat pels següents objectius:
 
 1. Fomentar la recerca i el diàleg interdisciplinari, promovent la col·laboració entre diferents camps del saber i la creació d’espais comuns d’intercanvi i aprenentatge entre iguals.
@@ -45,8 +38,8 @@ Català
 - Error
 
 Castellà
-- Incertidumbre
-- Error
+- <a href="/_includes/pdf/incertidumbre-es.pdf" target="_blank" class="pdf-download-btn">Incertidumbre (pdf)<img src="/img/download.svg" alt="Download" class="download-icon"></a>
+- <a href="/_includes/pdf/error-es.pdf" target="_blank" class="pdf-download-btn">Error (pdf)<img src="/img/download.svg" alt="Download" class="download-icon"></a>
 
 
 
@@ -54,7 +47,7 @@ Castellà
 
 Campagna, F. (2018). Technic and magic: The reconstruction of reality. London, UK: Bloomsbury Academic.
 
-Ellis, C., Adams, T. E., & Bochner, A. P. (2011). Autoethnography: An overview. Historical Social Research / Historische Sozialforschung, 36(4), 273–290. https://doi.org/10.12759/hsr.36.2011.4.273-290
+Ellis, C., Adams, T. E., & Bochner, A. P. (2011). Autoethnography: An overview. Historical Social Research / Historische Sozialforschung, 36(4), 273–290. <a href="https://doi.org/10.12759/hsr.36.2011.4.273-290" target="_blank">https://doi.org/10.12759/hsr.36.2011.4.273-290<img src="/img/external-link.svg" alt="External Link" class="download-icon"></a>
 
 Jacob, F. (1982). The possible and the actual. New York: Pantheon Books.
 
