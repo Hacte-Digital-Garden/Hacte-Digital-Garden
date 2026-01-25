@@ -10,24 +10,30 @@
 }
 ---
 
-# Intro
-
-Benvingut / Benvinguda al Digital Garden d’Hacte
+# Intro Digital Garden
 
 <br></br>
-### Projects:
-### [[AION/sobre|AION]]
+**Benvingut / Benvinguda al Digital Garden d’HacTe**
 
-<br></br>
+Aquest és un espai exploratori, dinàmic i embrionari que busca compartir la documentació — present i futura — vinculada als processos, resultats, propostes metodològiques, pràctiques i recomanacions associades a iniciatives promogudes des del Hub d’Art, Ciència i Tecnologia de Barcelona, en l’àmbit de la pràctica i la recerca híbrida entre les arts, les ciències i les tecnologies.
+
+En tant que espai creat amb eines de codi obert, la nostra voluntat és que esdevingui una plataforma de reflexió situada i híbrida, on el coneixement pugui fermentar, transformar-se i evolucionar de manera col·laborativa amb les comunitats interessades. 
+
+Un espai on acollir noves preguntes rellevants que s’obren en els processos de recerca transdisciplinària, però també on perdre’s en incerteses, errors i  aprenentatges. 
+
+Per a més informació sobre Hacte i els nostres programes, visiteu [hactebcn.org](https://www.hactebcn.org/es/)
 
 ---
 
-A digital garden is a collection of evolving notes and ideas that grow slowly over time, organized through contextual links rather than chronological order. Learn more about digital gardens.
+**Iniciatives**
 
-This digital garden is part of Hacte's initiative, exploring the intersections between art, science, and technology through collaborative knowledge-building and hybrid spaces of inquiry.
+[[AION/01-sobre|AION: membranes interdisciplinàries en la recerca de frontera]]
 
-[HacTe](https://www.hactebcn.org/es/) (Hub d'Art, Ciència i Tecnologia de Barcelona) is a nexus-space that brings together leading public and private entities from cultural, academic, scientific, and technological fields co-habiting and interacting in the Catalan territory. 
+---
 
-This digital garden was built using the Digital Garden plugin for Obsidian. Access the code on [GitHub](https://github.com/Hacte-Digital-Garden/Hacte-Digital-Garden).
+**Com navegar aquest Garden? Com contribuir al Garden?**
 
-For more information about Hacte and our programmes, visit hactebcn.org
+Com a espai exploratori, aquest jardí digital organitza el seu contingut de manera no lineal. Les pàgines es connecten per termes relacionats, pensaments i associacions. Navega-hi de forma lliure i desestructurada, seguint el fil dels teus pensaments i interessos.
+
+Per contribuir a qualsevol pàgina, podeu accedir  al codi a [GitHub](https://github.com/Hacte-Digital-Garden/Hacte-Digital-Garden).
+

@@ -1,12 +1,10 @@
 ---
-{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografia/margherita/","title":"Autoetnografia Margherita","created":"2025-11-17T18:34:52.695+01:00","updated":"2025-12-01T17:03:50.619+01:00"}
+{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografia/margherita/","title":"Autoetnografia Margherita Gallano","created":"2025-11-17T18:34:52.695+01:00","updated":"2025-12-01T17:03:50.619+01:00"}
 ---
-
-## Margherita Gallano
 
 Errar es la única forma de acceder a lo desconocido. 
 
-La investigación científica es intrínsecamente una exploración de lo que no sabemos, no entendemos y todavía no hemos observado. Así que, en mi trabajo cotidiano como investigadora científica el error es necesario: es una herramienta para viajar la incertidumbre del camino de investigación. Hay una dimensión emotiva importante que influye en la manera cómo lidiamos con el error. En el momento en que reconozco un error, juzgo el evento y las acciones que me han llevado hasta allí de forma absoluta y negativa; es decir, de forma absolutamente negativa. Al observar y distanciarme de la experiencia personal, me sorprende ver que vivo este momento como si fuera algo que no tendría que pasar, aunque sabemos que el error hace parte de la práctica de investigación y de la vida. Errar me vuelve vulnerable y, sobre todo, me hace sentir culpable. 
+La investigación científica es intrínsecamente una exploración de lo que no sabemos, no entendemos y todavía no hemos observado. Así que, en mi trabajo cotidiano como investigadora científica el #error es necesario: es una herramienta para viajar la incertidumbre del camino de investigación. Hay una dimensión emotiva importante que influye en la manera cómo lidiamos con el error. En el momento en que reconozco un error, juzgo el evento y las acciones que me han llevado hasta allí de forma absoluta y negativa; es decir, de forma absolutamente negativa. Al observar y distanciarme de la experiencia personal, me sorprende ver que vivo este momento como si fuera algo que no tendría que pasar, aunque sabemos que el error hace parte de la práctica de investigación y de la vida. Errar me vuelve vulnerable y, sobre todo, me hace sentir culpable. 
 
 Distinguir lo que es un error de lo que es correcto, es un juicio que solo se puede hacer a posteriori. Aunque queramos definir después el éxito de un experimento, siempre hay un grado de incertidumbre sobre nuestra interpretación. Por ello, creo que como investigadoras necesitamos dejar abierta la posibilidad de releer un resultado desde una perspectiva diferente y, así,  aprender a quedarnos en un espacio de duda que posibilite el error. Tener la certeza que vamos a errar y ser honestas con nosotras mismas respecto a esta posibilidad nos permite reconocer y transformar un error en un éxito. Solo así puede surgir lo inesperado, podemos liberarnos de los límites impuestos por nuestra ignorancia y construir nuevas hipótesis. 
 

@@ -1,0 +1,13 @@
+---
+{"dg-publish":true,"permalink":"/aion/proces/proces-2025/","title":"Procés 2025","pinned":true, "created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+---
+
+Com a part del procés de recerca d’AION, a més de la recerca interdisciplinària de les artistes i les científiques, s’han obert diferents instàncies perquè altres persones vinculades a la recerca hi participessin aportant-hi en moments concrets. A continuació es descriuen aquests moments d’obertura.
+
+En aquest [Pad](https://pad.riseup.net/p/AION_Incertersa_Error_Membrana-keep) es poden consultar les notes en brut de totes les obertures. 
+
+
+[[AION/Procés 2025/gabinet|Gabinet]]
+[[AION/Procés 2025/laboratori|Laboratori]]
+[[AION/Procés 2025/metode|Metode]]
+[[AION/Procés 2025/obrador|Obrador]]
