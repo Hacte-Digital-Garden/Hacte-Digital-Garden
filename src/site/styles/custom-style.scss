@@ -390,3 +390,68 @@ canvas {
 }
 
 
+// =============================================================================
+// IMAGES - FULL WIDTH (specific class)
+// =============================================================================
+
+.img-full-width {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+
+// =============================================================================
+// FILETREE FOOTER
+// =============================================================================
+
+.filetree-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(29, 29, 29, 0.2);
+  font-size: 0.85rem;
+
+  .footer-section {
+    margin-bottom: 1.5rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer-title {
+    margin: 0 0 0.5rem 0;
+    font-weight: 500;
+    color: var(--text-normal);
+    font-size: 0.8rem;
+  }
+
+  .footer-logo-big {
+    max-width: 120px!important;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-logo {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-logos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    align-items: center;
+
+    .footer-logo {
+      max-width: 100px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+

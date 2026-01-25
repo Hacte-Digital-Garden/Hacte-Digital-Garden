@@ -21,8 +21,3 @@ La seva pràctica explora la matèria situada, els fluxos de residus, els organi
 
 ### Margherita Gallano
 (Italia, 1998) és investigadora de biofísica a l'Institut de Bioenginyeria de Catalunya (IBEC). En el seu projecte de tesi predoctoral, se centra en les propietats de la membrana nuclear de la cèl·lula, utilitzant tècniques de cultiu cel·lular, microbiologia, microscòpia i anàlisi computacional. Després d'obtenir la llicenciatura en Física a Múnic, va passar una temporada a l'Institut Oceanogràfic de la Universitat de São Paulo, on va estudiar la biofluorescència en peixos d'aigües profundes. Durant la seva carrera acadèmica, ha participat en conferències internacionals a Espanya, Bèlgica, Alemanya i el Brasil. Ha impartit classes de física experimental a la Universitat LMU de Munic i a la USP de São Paulo. Imparteix tallers de ciència a escoles rurals de Catalunya i ha participat en el projecte de divulgació científica «Ciència radical», en col·laboració amb artistes residents a l'IBEC i al CCCB de Barcelona.
-
-
-## Persones participants
-
-Agustí Nieto-Galán, Guillem Serrahima Andrea Olmedo, Núria Vallès, Zoila Babot, Colectivo Juan de Madre, Jara Rocha, Monica Rikic, Lydia Sanmartí, Markel Cormenzana, Blanca Buendia, Daniel Pitarch, Pau Artigas, Monica Seglar, Clara Laguillo, Tatiana Afanador, Antonio Gangliano, Joan Guillem Mayans, Andreu Belsunces, Laia Allegro, Tomás Criado, Laura Hernández, Joan Mayans, Paula Bruna, Isaac Marrero, Ximo Berenguer
