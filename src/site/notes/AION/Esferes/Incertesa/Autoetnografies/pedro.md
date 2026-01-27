@@ -7,4 +7,12 @@
   <img src="../../../../../img/PedroTorres-Autoetnografia.jpg" alt="imagem" style="width: 240%; max-width: none;">
 </div>
 
-#incertidumbre 
+#incertidumbre
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Incertesa/Autoetnografies/markus|← Autoetnografía Markus Teller]] | [[AION/Esferes/Incertesa/n-caleg|n-Càleg Incertesa →]]
+
+</div> 

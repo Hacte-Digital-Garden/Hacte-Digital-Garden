@@ -74,3 +74,11 @@ También me introducen al movimiento Errorista, un deleite para mi auto-etno-err
 *errabundear*
 
 Andar por caminos que no estaban previstos. Pienso el error como contra-cultura, contra-máquina. Lo sistematizado, lo eficiente, lo productivo. Imagino. Programar el error. Documentarlo. Investigar las causas del error para poder reproducirlo. Repetirlo en serie. ¿Qué es? ¿Cuánto cuesta? ¿Cómo luce? ¿Qué forma tiene? Vuelvo a otro texto que hace poco fermenta en mí su concepto de bricoleur. Arreglador, artesano. Proviene del verbo bricoler, arreglar o crear algo usando materiales disponibles que no fueron diseñados para ese fin. Vuelvo a pensar en mis herramientas para transitar lo desconocido. Vuelvo al error. Quiero visibilizarlo, verbalizarlo, abrazarlo, acogerlo y volverlo mundano. Quiero mostrarme vulnerable, errada y seguir improvisando.
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Error/recomanacions|← Recomanacions per operar amb l'error]] | [[AION/Esferes/Error/Autoetnografies/margherita|Autoetnografia Margherita Gallano →]]
+
+</div>

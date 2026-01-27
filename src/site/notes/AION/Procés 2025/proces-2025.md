@@ -9,5 +9,12 @@ En aquest [Pad](https://pad.riseup.net/p/AION_Incertersa_Error_Membrana-keep) es
 
 [[AION/Procés 2025/gabinet|Gabinet]]
 [[AION/Procés 2025/laboratori|Laboratori]]
-[[AION/Procés 2025/metode|Metode]]
 [[AION/Procés 2025/obrador|Obrador]]
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Incertesa/n-caleg|← n-Càleg Incertesa]] | [[AION/Procés 2025/gabinet|Gabinet →]]
+
+</div>

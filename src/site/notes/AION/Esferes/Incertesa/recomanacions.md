@@ -66,4 +66,12 @@ A partir d’aquestes consideracions i recomanacions, els possibles efectes en r
 1. Comprendre el paper de la incertesa a l’inici d’un projecte, així com fins a quin punt influeix o resulta determinant en la seva posada en marxa;
 2. Reconèixer que, davant la incertesa, existeixen múltiples escenaris possibles, i que l’anàlisi de riscos i probabilitats permet abordar-los de manera més neutra i distanciada;
 3. Entendre que la incertesa, lluny de ser només paralitzadora, pot esdevenir una font d’aprenentatge i creixement personal;
-4. Relativitzar la incertesa mitjançant la seva articulació amb experiències prèvies i coneixement acumulat, per tal d’afrontar noves situacions amb més capacitat d’orientació.
+4. Relativitzar la incertesa mitjançant la seva articulació amb experiències prèvies i coneixement acumulat, per tal d'afrontar noves situacions amb més capacitat d'orientació.
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Incertesa/incertesa|← Incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/markus|Autoetnografía Markus Teller →]]
+
+</div>

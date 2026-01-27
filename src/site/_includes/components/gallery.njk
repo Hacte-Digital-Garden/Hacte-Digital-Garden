@@ -1,0 +1,29 @@
+{# Gallery Component
+   Usage:
+   {% set galleryImages = [
+     {src: "../../../img/image-01.jpg", alt: "Description 1"},
+     {src: "../../../img/image-02.jpg", alt: "Description 2"}
+   ] %}
+   {% include "components/gallery.njk" %}
+#}
+
+{% if galleryImages and galleryImages.length > 0 %}
+<div class="gallery-grid">
+  {% for image in galleryImages %}
+  <img src="{{ image.src }}" alt="{{ image.alt }}" onclick="openLightbox({{ loop.index0 }})">
+  {% endfor %}
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+</div>
+
+<script>
+  initGallery([
+    {% for image in galleryImages %}'{{ image.src }}'{% if not loop.last %},{% endif %}{% endfor %}
+  ]);
+</script>
+{% endif %}

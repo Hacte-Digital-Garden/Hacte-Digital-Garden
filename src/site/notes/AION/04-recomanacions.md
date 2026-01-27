@@ -6,6 +6,13 @@ Com a resultat dels processos de recerca s’han elaborat documents de recomanac
 
 **Accés als documents:**
 
-- [[AION/Esferes/Error/recomanacions|Recomanacions]] per investigar amb l’ #error en la recerca transdisciplinar
+- [[AION/Esferes/Error/recomanacions|Recomanacions]] per investigar amb l' #error en la recerca transdisciplinar
 - [[AION/Esferes/Incertesa/recomanacions|Recomanacions]] per investigar amb la #incertesa en la recerca transdisciplinar
 
+---
+
+<div style="text-align: center;">
+
+[[AION/03-eines|← Eines de treball]] | [[AION/05-resumen-ejecutivo|Resumen ejecutivo →]]
+
+</div>

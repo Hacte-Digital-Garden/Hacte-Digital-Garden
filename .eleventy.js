@@ -565,6 +565,54 @@ module.exports = function (eleventyConfig) {
     },
   });
 
+  // Gallery shortcode for use in markdown
+  eleventyConfig.addPairedShortcode("gallery", function(content, config) {
+    const images = config.images || [];
+
+    let gridHtml = '<div class="gallery-grid">';
+    images.forEach((image, index) => {
+      gridHtml += `<img src="${image.src}" alt="${image.alt}" onclick="openLightbox(${index})">`;
+    });
+    gridHtml += '</div>';
+
+    const lightboxHtml = `
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+</div>`;
+
+    const scriptHtml = `
+<script>
+  initGallery([${images.map(img => `'${img.src}'`).join(',')}]);
+</script>`;
+
+    return gridHtml + lightboxHtml + scriptHtml;
+  });
+
+  // Page navigation shortcode (using raw HTML to avoid markdown parsing issues)
+  eleventyConfig.addPairedShortcode("pageNav", function(content, prevPage, prevTitle, nextPage, nextTitle) {
+    let html = '\n\n<div style="text-align: center;">\n';
+
+    const links = [];
+
+    if (prevPage && prevTitle) {
+      const prevLink = getAnchorLink(prevPage, `← ${prevTitle}`);
+      links.push(prevLink);
+    }
+
+    if (nextPage && nextTitle) {
+      const nextLink = getAnchorLink(nextPage, `${nextTitle} →`);
+      links.push(nextLink);
+    }
+
+    html += links.join(' | ');
+    html += '\n</div>\n\n';
+
+    return html;
+  });
+
   userEleventySetup(eleventyConfig);
 
   return {
@@ -575,7 +623,7 @@ module.exports = function (eleventyConfig) {
     },
     templateFormats: ["njk", "md", "11ty.js"],
     htmlTemplateEngine: "njk",
-    markdownTemplateEngine: false,
+    markdownTemplateEngine: "njk",
     passthroughFileCopy: true,
   };
 };

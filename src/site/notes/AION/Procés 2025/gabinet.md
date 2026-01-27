@@ -16,5 +16,69 @@ D’entre les estratègies compartides destaquen la necessitat d’observar i an
 
 Han participat en aquesta sessió: Markus Teller, Pedro Torres, Lara Campos, Margherita Gallano, Tomás Criado, Laura Hernández, Joan Mayans, Paula Bruna, Isaac Marrero, Ximo Berenguer, tere badia, Andreu Belsunces, Anna Pinotti.
 
+<br></br>
+
+---
+
+<div class="gallery-grid">
+  <img src="../../../img/gabinet-01.jpg" alt="Gabinet 1" onclick="openLightbox(0)">
+  <img src="../../../img/gabinet-02.jpg" alt="Gabinet 2" onclick="openLightbox(1)">
+  <img src="../../../img/gabinet-03.jpg" alt="Gabinet 3" onclick="openLightbox(2)">
+  <img src="../../../img/gabinet-04.jpg" alt="Gabinet 4" onclick="openLightbox(3)">
+  <img src="../../../img/gabinet-05.jpg" alt="Gabinet 5" onclick="openLightbox(4)">
+  <img src="../../../img/gabinet-06.jpg" alt="Gabinet 6" onclick="openLightbox(5)">
+  <img src="../../../img/gabinet-07.jpg" alt="Gabinet 7" onclick="openLightbox(6)">
+  <img src="../../../img/gabinet-08.jpg" alt="Gabinet 8" onclick="openLightbox(7)">
+  <img src="../../../img/gabinet-09.jpg" alt="Gabinet 9" onclick="openLightbox(8)">
+  <img src="../../../img/gabinet-10.jpg" alt="Gabinet 10" onclick="openLightbox(9)">
+  <img src="../../../img/gabinet-11.jpg" alt="Gabinet 11" onclick="openLightbox(10)">
+  <img src="../../../img/gabinet-12.jpg" alt="Gabinet 12" onclick="openLightbox(11)">
+  <img src="../../../img/gabinet-13.jpg" alt="Gabinet 13" onclick="openLightbox(12)">
+  <img src="../../../img/gabinet-14.jpg" alt="Gabinet 14" onclick="openLightbox(13)">
+  <img src="../../../img/gabinet-15.jpg" alt="Gabinet 15" onclick="openLightbox(14)">
+  <img src="../../../img/gabinet-16.jpg" alt="Gabinet 16" onclick="openLightbox(15)">
+  <img src="../../../img/gabinet-17.jpg" alt="Gabinet 17" onclick="openLightbox(16)">
+  <img src="../../../img/gabinet-18.jpg" alt="Gabinet 18" onclick="openLightbox(17)">
+  <img src="../../../img/gabinet-19.jpg" alt="Gabinet 19" onclick="openLightbox(18)">
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+</div>
+
+<script>
+  initGallery([
+    '../../../img/gabinet-01.jpg',
+    '../../../img/gabinet-02.jpg',
+    '../../../img/gabinet-03.jpg',
+    '../../../img/gabinet-04.jpg',
+    '../../../img/gabinet-05.jpg',
+    '../../../img/gabinet-06.jpg',
+    '../../../img/gabinet-07.jpg',
+    '../../../img/gabinet-08.jpg',
+    '../../../img/gabinet-09.jpg',
+    '../../../img/gabinet-10.jpg',
+    '../../../img/gabinet-11.jpg',
+    '../../../img/gabinet-12.jpg',
+    '../../../img/gabinet-13.jpg',
+    '../../../img/gabinet-14.jpg',
+    '../../../img/gabinet-15.jpg',
+    '../../../img/gabinet-16.jpg',
+    '../../../img/gabinet-17.jpg',
+    '../../../img/gabinet-18.jpg',
+    '../../../img/gabinet-19.jpg'
+  ]);
+</script>
 
 <br></br>
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Procés 2025/proces-2025|← Procés 2025]] | [[AION/Procés 2025/laboratori|Laboratori →]]
+
+</div>

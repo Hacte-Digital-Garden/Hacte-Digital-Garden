@@ -302,7 +302,7 @@ ul.task-list {
 
 .filetree-sidebar {
     margin: 0;
-    z-index: 10;
+    z-index: 100;
     padding: 10px;
     top: 0px;
     left: 0;
@@ -311,7 +311,7 @@ ul.task-list {
     background-color: var(--background-secondary);
     color: var(--text-muted);
     overflow-y: auto;
-    width: 250px;
+    width: 280px;
     h1 {
         font-size: 32px !important;
     }
@@ -404,7 +404,7 @@ ul.task-list {
     margin: 4px 0 4px 2px;
 }
 
-.inner-folder {
+.filelist .inner-folder {
     padding: 3px 0 3px 10px;
 }
 
@@ -415,16 +415,16 @@ ul.task-list {
 .notelink.active-note {
     a {
         color: var(--text-accent);
+        text-decoration: underline !important;
     }
 
     color: var(--text-accent);
     background-color: var(--background-primary);
-    transform: translateX(10px);
 }
 
 .fullpage-overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;

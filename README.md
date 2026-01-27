@@ -7,3 +7,15 @@ See the README in the plugin repo for information on how to set it up.
 ---
 ## Docs
 Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
+
+
+
+
+
+
+https://www.markdownguide.org/cheat-sheet/
+
+types:
+https://weltkern.com/typefaces/everett
+
+
