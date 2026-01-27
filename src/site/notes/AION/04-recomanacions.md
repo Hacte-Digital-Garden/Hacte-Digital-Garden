@@ -13,6 +13,6 @@ Com a resultat dels processos de recerca s’han elaborat documents de recomanac
 
 <div style="text-align: center;">
 
-[[AION/03-eines|← Eines de treball]] | [[AION/05-resumen-ejecutivo|Resumen ejecutivo →]]
+[[AION/03-eines|← Eines de treball]] | [[AION/Esferes/esferes|Esferes →]]
 
 </div>

@@ -12,8 +12,6 @@ El taller va subratllar la dimensió afectiva i col·lectiva de l’error i la i
 
 D’entre les estratègies compartides destaquen la necessitat d’observar i anomenar els errors, documentar els processos amb els seus afectes, iterar de manera reversible i crear llindars segurs per a l’experimentació, concloent que pensar des de l’error i la incertesa no debilita el coneixement: l’humanitza, l’amplia i el torna més conscient dels límits.
 
-[[AION/05-resumen-ejecutivo|Consulta el resum del Gabinet.]]
-
 Han participat en aquesta sessió: Markus Teller, Pedro Torres, Lara Campos, Margherita Gallano, Tomás Criado, Laura Hernández, Joan Mayans, Paula Bruna, Isaac Marrero, Ximo Berenguer, tere badia, Andreu Belsunces, Anna Pinotti.
 
 <br></br>
