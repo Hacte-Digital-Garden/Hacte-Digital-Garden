@@ -17,3 +17,11 @@ Las fricciones entre arte y ciencia revelaron **jerarquías epistémicas** y dis
 El taller subrayó la dimensión **afectiva y colectiva** del error y la incertidumbre: la confianza, el acompañamiento y las **infraestructuras de cuidado** son indispensables para que no se conviertan en fracaso. Las escenificaciones realizadas — como _Castillo en el aire, La torre de lo inestable o El asombro_ — mostraron cómo la flexibilidad, la sorpresa y la vulnerabilidad pueden convertirse en formas de conocimiento.
 
 Finalmente, se identificaron **estrategias compartidas**: observar y nombrar los errores, documentar los procesos con sus afectos, iterar de forma reversible y crear umbrales seguros para la experimentación. El taller concluyó que pensar desde el error y la incertidumbre no debilita el conocimiento: **lo humaniza, lo amplía y lo vuelve más consciente de sus límites**.
+
+---
+
+<div style="text-align: center;">
+
+[[AION/04-recomanacions|← Recomanacions per la recerca]] | [[AION/Esferes/esferes|Esferes →]]
+
+</div>

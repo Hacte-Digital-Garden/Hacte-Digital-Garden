@@ -9,3 +9,11 @@ En los primeros días de autoetnografía, las palabras y frases me salían fáci
 El contexto de incertidumbre “natural” en mi vida laboral son problemas relacionados con el laboratorio. Como físico cuántico que hace experimentos, mi vida laboral tiene, naturalmente, contacto con la incertidumbre. Uno de mis aprendizajes es que hay incertidumbre positiva, neutral y negativa. Por ejemplo, encontré la incertidumbre positiva cuando empezábamos un experimento por primera vez. Con mucha esperanza, esperamos los datos y ver los resultados. La incertidumbre neutral son cosas de las que no me había dado cuenta antes de escribir sobre ellas en la autoetnografía, por ejemplo, ¿qué habrá hoy en la cafetería? La incertidumbre negativa era la más fácil de definir y no hace falta este tipo de incertidumbre. Muchas veces en el laboratorio, encontramos la situación en que un instrumento dejaba de funcionar y teníamos que encontrar el problema y solucionarlo. 
 
 A partir de un mes, me encontré con otro el gran aprendizaje de la autoetnografía: las situaciones y la incertidumbre que conllevan se repiten y son siempre similares. Este aprendizaje me ayudó a aceptar la incertidumbre negativa con tranquilidad y a mantener la cabeza fría. Después de este hallazgo, tengo que confesar que, después de dos o tres semanas más, dejé de escribir en mi libreta porque la repetición de la incertidumbre me dio la impresión de que había aprendido lo que podía aprender. De todos modos, te recomiendo probar este experimento tú mismo, porque no sabes qué aprendas hasta que resuelvas esta incertidumbre.
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Incertesa/recomanacions|← Recomanacions per operar amb la incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/pedro|Autoetnografía Pedro Torres →]]
+
+</div>

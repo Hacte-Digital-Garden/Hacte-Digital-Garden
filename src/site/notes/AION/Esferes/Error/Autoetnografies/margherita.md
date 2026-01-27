@@ -14,7 +14,12 @@ Estoy tratando de reproducir un experimento en el que obtuve un resultado intere
 
 Me encuentro pensando en otro tipo de error que cometí. Me olvidé de tomar unas imágenes de mi muestra. Ahora me faltan. Queda un vacío y ya no hay la posibilidad de reinterpretar, de aprovechar  esta muestra, de repensar caminos. Solo puedo parar y repetir el mismo experimento, tomando las imágenes que me faltan. 
 
-Desde la dimensión emotiva del error, sigo pensando en la dimensión interpersonal, es decir, la comunicación del error. El trabajo científico es tan lindo porque es un trabajo de equipo y nos lleva a discutir constantemente, compartiendo resultados, ideas y fallos. Me parece que el error es descuidado en la comunidad científica y que muchas veces se trata como un tabú. Creo que, a largo plazo, este hábito nos lleva a más y mayores errores. El error se magnifica si está escondido, se nutre de vergüenzas y silencios hasta que explota, creando incomodidades y acusaciones. 
+Desde la dimensión emotiva del error, sigo pensando en la dimensión interpersonal, es decir, la comunicación del error. El trabajo científico es tan lindo porque es un trabajo de equipo y nos lleva a discutir constantemente, compartiendo resultados, ideas y fallos. Me parece que el error es descuidado en la comunidad científica y que muchas veces se trata como un tabú. Creo que, a largo plazo, este hábito nos lleva a más y mayores errores. El error se magnifica si está escondido, se nutre de vergüenzas y silencios hasta que explota, creando incomodidades y acusaciones.
 
+---
 
-#error
+<div style="text-align: center;">
+
+[[AION/Esferes/Error/Autoetnografies/lara|← Autoetnografía Lara Campos]] | [[AION/Esferes/Error/n-caleg|n-Càleg Error →]]
+
+</div> 

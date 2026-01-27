@@ -16,3 +16,11 @@ AION explora com algunes esferes, definides i situades, intangibles a priori, pe
 
 - [[AION/esferes/error/error|Error]]
 - [[AION/esferes/incertesa/incertesa|Incertesa]]
+
+---
+
+<div style="text-align: center;">
+
+[[AION/05-resumen-ejecutivo|← Resumen ejecutivo]] | [[AION/Esferes/Error/error|Error →]]
+
+</div>

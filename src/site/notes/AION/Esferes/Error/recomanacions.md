@@ -7,7 +7,7 @@ _Lara Campos & Margherita Gallano_
 
 **Consideracions preliminars**
 
-L’error com a oportunitat per aturar-se, reflexionar i redirigir. L’#error com a espai-temps per a l’aprenentatge i l’estupor. L’error com a punt de referència de la pèrdua de control i de les expectatives o resultats no assolits. L’error com a guia cap a noves derives. L’error indisciplinat. L’error com a eina per a l’alliberament epistemològic.
+L’error com a oportunitat per aturar-se, reflexionar i redirigir. L’ #error com a espai-temps per a l’aprenentatge i l’estupor. L’error com a punt de referència de la pèrdua de control i de les expectatives o resultats no assolits. L’error com a guia cap a noves derives. L’error indisciplinat. L’error com a eina per a l’alliberament epistemològic.
 
 Comparant perspectives i aproximacions a l’error en processos de recerca des de l’art i la ciència, hem reflexionat sobre els nostres gestos, accions, metodologies, expectatives i resultats. Hem identificat que la ciència defineix l’error de manera més rigorosa i estructurada, i per tant queda més controlat allò que és dins del terreny possible. En canvi, en l’art és difícil identificar-lo, ja que no són clars els anhels ni els límits disciplinaris que podrien marcar què queda fora i què queda dins. En conseqüència, allò que podria ser un error s’integra com una nova deriva a explorar. Podem identificar, doncs, que l’error és a la frontera, als marges, i ens fa entendre no només els límits, sinó també la porositat, translucidesa, flexibilitat o rigidesa de les nostres pràctiques i àmbits. **Depèn de com sigui d'estricta l’expectativa del procés, o de com de definit sigui el resultat esperat, que quedi més clar què és, o no és, un error.**
 
@@ -75,4 +75,12 @@ La manera com compartim i vivim l’error en la comunitat on treballem impacta l
 - Com et sents?
 - Com continues?
 
-5. Observa. Com es manifesta el teu error? Afegeix la imatge/dibuix/esquema creat a l’Erroteca. Pots acompanyar la imatge amb alguna referència textual.
+5. Observa. Com es manifesta el teu error? Afegeix la imatge/dibuix/esquema creat a l'Erroteca. Pots acompanyar la imatge amb alguna referència textual.
+
+---
+
+<div style="text-align: center;">
+
+[[AION/Esferes/Error/error|← Error]] | [[AION/Esferes/Error/Autoetnografies/lara|Autoetnografía Lara Campos →]]
+
+</div>

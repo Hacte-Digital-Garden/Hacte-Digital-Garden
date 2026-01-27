@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/aion/metedologia/","title":"Metodologia","pinned":true, "created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+{"dg-publish":true,"permalink":"/aion/metodologia/","title":"Metodologia","pinned":true, "created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
 
 #metodologia
@@ -34,3 +34,10 @@ En aquest enllaç es pot accedir al [pad](https://pad.riseup.net/p/AION_Incerter
 
 <img src="../../../img/chart.svg" alt="imagem" class="img-full-width" />
 
+---
+
+<div style="text-align: center;">
+
+[[AION/01-sobre|← Sobre AION]] | [[AION/03-eines|Eines de treball →]]
+
+</div>
