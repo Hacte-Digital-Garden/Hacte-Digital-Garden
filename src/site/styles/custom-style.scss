@@ -113,10 +113,18 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+
+  @media (max-width: 800px) {
+    padding: 2rem 0.5rem;
+  }
 }
 
 main {
   padding: 2rem;
+
+  @media (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 svg {
@@ -147,7 +155,7 @@ svg {
   }
 
   @media (max-width: 800px) {
-    width: 90vw;
+    width: 100%;
   }
 }
 
