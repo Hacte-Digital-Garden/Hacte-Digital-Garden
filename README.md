@@ -12,6 +12,7 @@ Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
 
 
 
+explain briefly how to contribute once you are in the guthub
 
 https://www.markdownguide.org/cheat-sheet/
 

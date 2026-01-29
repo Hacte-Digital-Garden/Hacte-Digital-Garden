@@ -10,10 +10,7 @@
 }
 ---
 
-# Intro Digital Garden
-
-<br></br>
-**Benvingut / Benvinguda al Digital Garden d’HacTe**
+## Benvingut / Benvinguda al Digital Garden d’HacTe
 
 Aquest és un espai exploratori, dinàmic i embrionari que busca compartir la documentació — present i futura — vinculada als processos, resultats, propostes metodològiques, pràctiques i recomanacions associades a iniciatives promogudes des del Hub d’Art, Ciència i Tecnologia de Barcelona, en l’àmbit de la pràctica i la recerca híbrida entre les arts, les ciències i les tecnologies.
 
@@ -31,7 +28,7 @@ Per a més informació sobre Hacte i els nostres programes, visiteu [hactebcn.or
 
 ---
 
-**Com navegar aquest Garden? Com contribuir al Garden?**
+**Com navegar i contribuir a aquest Garden?**
 
 Com a espai exploratori, aquest jardí digital organitza el seu contingut de manera no lineal. Les pàgines es connecten per termes relacionats, pensaments i associacions. Navega-hi de forma lliure i desestructurada, seguint el fil dels teus pensaments i interessos.
 

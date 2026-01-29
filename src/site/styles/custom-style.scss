@@ -113,10 +113,18 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+
+  @media (max-width: 800px) {
+    padding: 2rem 0.5rem;
+  }
 }
 
 main {
   padding: 2rem;
+
+  @media (max-width: 800px) {
+    padding: 0;
+  }
 }
 
 svg {
@@ -147,7 +155,7 @@ svg {
   }
 
   @media (max-width: 800px) {
-    width: 90vw;
+    width: 100%;
   }
 }
 
@@ -229,24 +237,80 @@ svg {
 .backlinks {
   flex: 1;
   margin-top: 0;
-  padding: 16px;
+  padding: 12px;
   //background-color: #C1FDE6;
   // border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
   // border-radius: 0;
+
+  @media (max-width: 800px) {
+    padding: 24px 12px;
+  }
 }
 
 .sidebar {
   height: fit-content !important;
+  width: 100%;
 }
+
 
 .sidebar-container {
   height: fit-content !important;
 }
 
+#link-graph {
+  background-color: transparent;
+  border-radius: 0;
+}
+
 .force-graph-container {
   //background-color: #C1FDE6;
+  background-color: var(--background-secondary);
   border: 1px solid rgba($color: #1d1d1d, $alpha: 0.4);
   border-radius: 0;
+
+  canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
+// Fix full-screen graph centering — remove parent transform so position:fixed
+// works relative to the viewport, not the transformed sidebar
+.sidebar:has(.graph-fs) {
+  transform: none !important;
+}
+
+.sidebar .graph-fs {
+  top: 0 !important;
+  left: 0 !important;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: none !important;
+
+  #link-graph {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: none !important;
+  }
+
+  .force-graph-container {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+  }
+
+  .force-graph-container canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  @media (max-width: 800px) {
+    width: calc(100vw - 2rem);
+    height: calc(100vw - 2rem);
+    min-width: unset;
+    min-height: unset;
+  }
 }
 
 .graph .graph-title {
@@ -354,8 +418,9 @@ canvas {
 // FILETREE - HIDE NOTE ICONS
 // =============================================================================
 
-.filetree-sidebar .notelink i[icon-name="sticky-note"],
-.filetree-sidebar .notelink svg.svg-icon {
+.filetree-sidebar .notelink i,
+.filetree-sidebar .notelink svg,
+.filetree-sidebar .filename[data-note-icon]::before {
   display: none !important;
 }
 
@@ -380,17 +445,19 @@ canvas {
   }
 
   .sidebar .graph #link-graph {
-    width: 332px;
+    width: 100%;
+    max-width: 332px;
     height: 332px;
-}
+  }
 }
 
 @media (max-width: 800px) {
 
   .sidebar .graph #link-graph {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     height: 280px;
-}
+  }
 
   .graph {
     flex: content;

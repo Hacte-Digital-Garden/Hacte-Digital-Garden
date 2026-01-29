@@ -21,6 +21,6 @@ AION explora com algunes esferes, definides i situades, intangibles a priori, pe
 
 <div style="text-align: center;">
 
-[[AION/05-resumen-ejecutivo|← Resumen ejecutivo]] | [[AION/Esferes/Error/error|Error →]]
+[[AION/04-recomanacions|← Recomanacions per la recerca]] | [[AION/Esferes/Error/error|Error →]]
 
 </div>
