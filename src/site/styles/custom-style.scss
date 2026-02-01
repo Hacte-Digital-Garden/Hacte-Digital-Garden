@@ -245,6 +245,10 @@ svg {
   @media (max-width: 800px) {
     padding: 24px 12px;
   }
+
+  .backlink-title {
+    font-size: 16px !important;
+  }
 }
 
 .sidebar {
@@ -503,10 +507,14 @@ canvas {
   }
 
   .footer-logo-big {
-    max-width: 120px!important;
+    max-width: 120px !important;
     height: auto;
     display: block;
     margin-bottom: 0.5rem;
+  }
+
+  .footer-logo-bigger {
+    max-width: 200px !important;
   }
 
   .footer-logo {

@@ -30,19 +30,6 @@ En paral·lel, es va treballar en el bolcat “en viu” del material processual
   <img src="../../../img/obrador-13.jpg" alt="Obrador 13" onclick="openLightbox(12)">
   <img src="../../../img/obrador-14.jpg" alt="Obrador 14" onclick="openLightbox(13)">
   <img src="../../../img/obrador-15.jpg" alt="Obrador 15" onclick="openLightbox(14)">
-  <img src="../../../img/obrador-16.jpg" alt="Obrador 16" onclick="openLightbox(15)">
-  <img src="../../../img/obrador-17.jpg" alt="Obrador 17" onclick="openLightbox(16)">
-  <img src="../../../img/obrador-18.jpg" alt="Obrador 18" onclick="openLightbox(17)">
-  <img src="../../../img/obrador-19.jpg" alt="Obrador 19" onclick="openLightbox(18)">
-  <img src="../../../img/obrador-20.jpg" alt="Obrador 20" onclick="openLightbox(19)">
-  <img src="../../../img/obrador-21.jpg" alt="Obrador 21" onclick="openLightbox(20)">
-  <img src="../../../img/obrador-22.jpg" alt="Obrador 22" onclick="openLightbox(21)">
-  <img src="../../../img/obrador-23.jpg" alt="Obrador 23" onclick="openLightbox(22)">
-  <img src="../../../img/obrador-24.jpg" alt="Obrador 24" onclick="openLightbox(23)">
-  <img src="../../../img/obrador-25.jpg" alt="Obrador 25" onclick="openLightbox(24)">
-  <img src="../../../img/obrador-26.jpg" alt="Obrador 26" onclick="openLightbox(25)">
-  <img src="../../../img/obrador-27.jpg" alt="Obrador 27" onclick="openLightbox(26)">
-  <img src="../../../img/obrador-28.jpg" alt="Obrador 28" onclick="openLightbox(27)">
 
 </div>
 
@@ -69,20 +56,7 @@ En paral·lel, es va treballar en el bolcat “en viu” del material processual
     '../../../img/obrador-12.jpg',
     '../../../img/obrador-13.jpg',
     '../../../img/obrador-14.jpg',
-    '../../../img/obrador-15.jpg',
-    '../../../img/obrador-16.jpg',
-    '../../../img/obrador-17.jpg',
-    '../../../img/obrador-18.jpg',
-    '../../../img/obrador-19.jpg',
-    '../../../img/obrador-20.jpg',
-    '../../../img/obrador-21.jpg',
-    '../../../img/obrador-22.jpg',
-    '../../../img/obrador-23.jpg',
-    '../../../img/obrador-24.jpg',
-    '../../../img/obrador-25.jpg',
-    '../../../img/obrador-26.jpg',
-    '../../../img/obrador-27.jpg',
-    '../../../img/obrador-28.jpg'
+    '../../../img/obrador-15.jpg'
   ]);
 </script>
 

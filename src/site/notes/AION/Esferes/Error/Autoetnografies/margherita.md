@@ -16,6 +16,35 @@ Me encuentro pensando en otro tipo de error que cometí. Me olvidé de tomar una
 
 Desde la dimensión emotiva del error, sigo pensando en la dimensión interpersonal, es decir, la comunicación del error. El trabajo científico es tan lindo porque es un trabajo de equipo y nos lleva a discutir constantemente, compartiendo resultados, ideas y fallos. Me parece que el error es descuidado en la comunidad científica y que muchas veces se trata como un tabú. Creo que, a largo plazo, este hábito nos lleva a más y mayores errores. El error se magnifica si está escondido, se nutre de vergüenzas y silencios hasta que explota, creando incomodidades y acusaciones.
 
+<br></br>
+
+---
+
+<div class="gallery-grid">
+  <img src="../../../../../img/marghe-diari-1.jpg" alt="Marguerita Diari 1" onclick="openLightbox(0)">
+  <img src="../../../../../img/marghe-diari-2.jpg" alt="Marguerita Diari 2" onclick="openLightbox(1)">
+  <img src="../../../../../img/marghe-diari-3.jpg" alt="Marguerita Diari 3" onclick="openLightbox(2)">
+
+
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+</div>
+
+<script>
+  initGallery([
+    '../../../../../img/marghe-diari-1.jpg',
+    '../../../../../img/marghe-diari-2.jpg',
+    '../../../../../img/marghe-diari-3.jpg'
+  ]);
+</script>
+
+<br></br>
+
 ---
 
 <div style="text-align: center;">

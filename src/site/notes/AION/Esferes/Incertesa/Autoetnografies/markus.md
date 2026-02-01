@@ -10,6 +10,30 @@ El contexto de incertidumbre “natural” en mi vida laboral son problemas rela
 
 A partir de un mes, me encontré con otro el gran aprendizaje de la autoetnografía: las situaciones y la incertidumbre que conllevan se repiten y son siempre similares. Este aprendizaje me ayudó a aceptar la incertidumbre negativa con tranquilidad y a mantener la cabeza fría. Después de este hallazgo, tengo que confesar que, después de dos o tres semanas más, dejé de escribir en mi libreta porque la repetición de la incertidumbre me dio la impresión de que había aprendido lo que podía aprender. De todos modos, te recomiendo probar este experimento tú mismo, porque no sabes qué aprendas hasta que resuelvas esta incertidumbre.
 
+<br></br>
+
+---
+
+<div class="gallery-grid">
+  <img src="../../../../../img/markus-diary.jpeg" alt="Markus Diary" onclick="openLightbox(0)">
+
+</div>
+
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <span class="lightbox-prev" onclick="event.stopPropagation(); changeImage(-1)">&#10094;</span>
+  <img id="lightbox-img" class="lightbox-content" src="" alt="">
+  <span class="lightbox-next" onclick="event.stopPropagation(); changeImage(1)">&#10095;</span>
+</div>
+
+<script>
+  initGallery([
+    '../../../../../img/markus-diary.jpeg'
+  ]);
+</script>
+
+<br></br>
+
 ---
 
 <div style="text-align: center;">
