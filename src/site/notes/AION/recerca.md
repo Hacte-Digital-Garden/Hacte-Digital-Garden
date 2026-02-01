@@ -127,7 +127,7 @@ permite ver a través, pero posee pequeñas agrupaciones que no dejan ver
 
 <div class="gallery-grid">
   <img src="../../../img/membrana-14.jpg" alt="Membrana 14" onclick="openLightbox(13)">
-  <img src="../../../img/membrana-15.png" alt="Membrana 15" onclick="openLightbox(14)">
+  <img src="../../../img/membrana-15.jpg" alt="Membrana 15" onclick="openLightbox(14)">
 </div>
 
 10. **kombucha húmeda/fresca**
