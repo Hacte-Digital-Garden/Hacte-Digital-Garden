@@ -14,7 +14,7 @@ Posteriorment, es va obrir un espai per pensar col·lectivament sobre com operat
 
 Han participat en aquesta sessió: Markus Teller, Margherita Gallano, Pedro Torres, Lara Campos, Tere Badia, Agustí Nieto-Galán, Guillem Serrahima Andrea Olmedo, Núria Vallès, Zoila Babot, Colectivo Juan de Madre, Jara Rocha, Monica Rikic, Lydia Sanmartí, Markel Cormenzana, Blanca Buendia, Daniel Pitarch, Pau Artigas, Monica Seglar, Clara Laguillo, Tatiana Afanador, Antonio Gagliano, Joan Guillem Mayans, Andreu Belsunces, Laia Allegro, Anna Pinotti.
 
-<br></br>
+<a href="../../../pdf/la-creatividad-de-la-indisciplina.pdf" target="_blank" class="pdf-download-btn">Descarrega La creativitat com a indisciplina (pdf, 3,7 MB)<img src="/img/download.svg" alt="Download" class="download-icon"></a>
 
 ---
 
