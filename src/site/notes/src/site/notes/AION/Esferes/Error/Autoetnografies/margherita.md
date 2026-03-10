@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/error/autoetnografies/margherita/","title":"Autoetnografia Margherita Gallano"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Error/Autoetnografies/margherita.md","permalink":"/aion/esferes/error/autoetnografies/margherita/","title":"Autoetnografia Margherita Gallano"}
 ---
 
 

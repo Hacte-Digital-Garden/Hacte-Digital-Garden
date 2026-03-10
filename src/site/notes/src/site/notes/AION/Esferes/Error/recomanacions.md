@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/error/recomanacions/","title":"Recomanacions per operar amb l’error"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Error/recomanacions.md","permalink":"/aion/esferes/error/recomanacions/","title":"Recomanacions per operar amb l’error"}
 ---
 
 

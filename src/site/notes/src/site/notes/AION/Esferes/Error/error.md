@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/error/error/","title":"Error"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Error/error.md","permalink":"/aion/esferes/error/error/","title":"Error"}
 ---
 
 

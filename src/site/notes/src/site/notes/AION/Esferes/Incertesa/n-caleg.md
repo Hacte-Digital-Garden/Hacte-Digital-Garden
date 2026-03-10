@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/incertesa/n-caleg/","title":"n-Càleg Incertesa"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Incertesa/n-caleg.md","permalink":"/aion/esferes/incertesa/n-caleg/","title":"n-Càleg Incertesa"}
 ---
 
 

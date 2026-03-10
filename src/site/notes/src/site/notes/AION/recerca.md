@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/recerca/","title":"Recerca expandida"}
+{"dg-publish":true,"dg-path":"AION/recerca.md","permalink":"/aion/recerca/","title":"Recerca expandida"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/esferes/","title":"Esferes"}
+{"dg-publish":true,"dg-path":"AION/Esferes/esferes.md","permalink":"/aion/esferes/esferes/","title":"Esferes"}
 ---
 
 

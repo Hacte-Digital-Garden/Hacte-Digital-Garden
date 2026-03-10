@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/proces-2025/proces-2025/","title":"Procés 2025"}
+{"dg-publish":true,"dg-path":"AION/Procés 2025/proces-2025.md","permalink":"/aion/proces-2025/proces-2025/","title":"Procés 2025"}
 ---
 
 

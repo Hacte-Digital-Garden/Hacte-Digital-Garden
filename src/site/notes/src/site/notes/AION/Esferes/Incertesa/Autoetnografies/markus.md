@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/incertesa/autoetnografies/markus/","title":"Autoetnografía Markus Teller"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Incertesa/Autoetnografies/markus.md","permalink":"/aion/esferes/incertesa/autoetnografies/markus/","title":"Autoetnografía Markus Teller"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/02-metodologia/","title":"Metodologia"}
+{"dg-publish":true,"dg-path":"AION/02-metodologia.md","permalink":"/aion/02-metodologia/","title":"Metodologia"}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/collaboradores/","title":"Col·laboradores"}
+{"dg-publish":true,"dg-path":"AION/collaboradores.md","permalink":"/aion/collaboradores/","title":"Col·laboradores"}
 ---
 
 

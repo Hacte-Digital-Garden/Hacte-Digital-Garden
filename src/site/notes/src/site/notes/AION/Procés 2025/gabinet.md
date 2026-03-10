@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/proces-2025/gabinet/","title":"Gabinet"}
+{"dg-publish":true,"dg-path":"AION/Procés 2025/gabinet.md","permalink":"/aion/proces-2025/gabinet/","title":"Gabinet"}
 ---
 
 

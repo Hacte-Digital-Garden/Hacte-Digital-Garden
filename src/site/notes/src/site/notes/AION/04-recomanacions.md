@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/04-recomanacions/","title":"Recomanacions per la recerca"}
+{"dg-publish":true,"dg-path":"AION/04-recomanacions.md","permalink":"/aion/04-recomanacions/","title":"Recomanacions per la recerca"}
 ---
 
 

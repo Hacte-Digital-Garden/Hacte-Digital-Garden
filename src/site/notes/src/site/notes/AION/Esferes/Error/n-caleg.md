@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/error/n-caleg/","title":"n-Càleg Error"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Error/n-caleg.md","permalink":"/aion/esferes/error/n-caleg/","title":"n-Càleg Error"}
 ---
 
 

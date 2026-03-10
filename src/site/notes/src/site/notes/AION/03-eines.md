@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/03-eines/","title":"Eines de treball"}
+{"dg-publish":true,"dg-path":"AION/03-eines.md","permalink":"/aion/03-eines/","title":"Eines de treball"}
 ---
 
 

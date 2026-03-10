@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/01-sobre/","title":"Sobre AION"}
+{"dg-publish":true,"dg-path":"AION/01-sobre.md","permalink":"/aion/01-sobre/","title":"Sobre AION"}
 ---
 
 

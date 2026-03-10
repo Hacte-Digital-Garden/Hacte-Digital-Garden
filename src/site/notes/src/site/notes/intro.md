@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/intro/","title":"Intro","tags":["gardenEntry"]}
+{"dg-publish":true,"dg-path":"intro.md","permalink":"/intro/","title":"Intro","tags":["gardenEntry"]}
 ---
 
 

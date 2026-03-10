@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/incertesa/recomanacions/","title":"Recomanacions per Operar amb la Incertesa"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Incertesa/recomanacions.md","permalink":"/aion/esferes/incertesa/recomanacions/","title":"Recomanacions per Operar amb la Incertesa"}
 ---
 
 

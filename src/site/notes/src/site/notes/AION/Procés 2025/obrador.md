@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/proces-2025/obrador/","title":"Obrador"}
+{"dg-publish":true,"dg-path":"AION/Procés 2025/obrador.md","permalink":"/aion/proces-2025/obrador/","title":"Obrador"}
 ---
 
 

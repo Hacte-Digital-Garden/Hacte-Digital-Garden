@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/error/autoetnografies/lara/","title":"Autoetnografía Lara Campos"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Error/Autoetnografies/lara.md","permalink":"/aion/esferes/error/autoetnografies/lara/","title":"Autoetnografía Lara Campos"}
 ---
 
 

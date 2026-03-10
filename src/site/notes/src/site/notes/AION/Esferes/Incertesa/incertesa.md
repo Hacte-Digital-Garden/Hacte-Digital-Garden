@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/incertesa/incertesa/","title":"Incertesa"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Incertesa/incertesa.md","permalink":"/aion/esferes/incertesa/incertesa/","title":"Incertesa"}
 ---
 
 

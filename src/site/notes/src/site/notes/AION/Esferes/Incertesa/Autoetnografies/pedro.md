@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/esferes/incertesa/autoetnografies/pedro/","title":"Autoetnografía Pedro Torres"}
+{"dg-publish":true,"dg-path":"AION/Esferes/Incertesa/Autoetnografies/pedro.md","permalink":"/aion/esferes/incertesa/autoetnografies/pedro/","title":"Autoetnografía Pedro Torres"}
 ---
 
 
