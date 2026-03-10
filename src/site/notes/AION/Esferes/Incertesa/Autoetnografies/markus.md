@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/aion/esferes/incertesa/autoetnografies/markus/","title":"Autoetnografía Markus Teller","created":"2025-11-17T18:54:20.911+01:00","updated":"2025-12-01T17:04:07.574+01:00"}
+{"dg-publish":true,"permalink":"/aion/esferes/incertesa/autoetnografies/markus/","title":"Autoetnografía Markus Teller"}
 ---
+
 
 Primero, la autoetnografía fue un experimento en el que tomaba notas y pensamientos sobre la #incertidumbre que encontraba en el contexto de mi vida laboral. Cada dos o tres días durante seis semanas, me sentaba con un café a la mesa y empezaba a escribir. Después de unas semanas, leer los textos escritos se convirtió en un ritual de reflexión del pasado. Aquí, os mando algunos de mis aprendizajes de este experimento. 
 
@@ -38,6 +39,6 @@ A partir de un mes, me encontré con otro el gran aprendizaje de la autoetnograf
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Incertesa/recomanacions|← Recomanacions per operar amb la incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/pedro|Autoetnografía Pedro Torres →]]
+[[AION/Esferes/Incertesa/recomanacions\|← Recomanacions per operar amb la incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/pedro\|Autoetnografía Pedro Torres →]]
 
 </div>

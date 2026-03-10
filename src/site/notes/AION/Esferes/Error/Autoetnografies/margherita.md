@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografia/margherita/","title":"Autoetnografia Margherita Gallano","created":"2025-11-17T18:34:52.695+01:00","updated":"2025-12-01T17:03:50.619+01:00"}
+{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografies/margherita/","title":"Autoetnografia Margherita Gallano"}
 ---
+
 
 Errar es la única forma de acceder a lo desconocido. 
 
@@ -49,6 +50,6 @@ Desde la dimensión emotiva del error, sigo pensando en la dimensión interperso
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Error/Autoetnografies/lara|← Autoetnografía Lara Campos]] | [[AION/Esferes/Error/n-caleg|n-Càleg Error →]]
+[[AION/Esferes/Error/Autoetnografies/lara\|← Autoetnografía Lara Campos]] | [[AION/Esferes/Error/n-caleg\|n-Càleg Error →]]
 
 </div> 

@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/incertesa/recomanacions/","pinned":true,"title":"Recomanacions per Operar amb la Incertesa","created":"2026-01-03T00:00:00.000+01:00","updated":"2026-01-03T00:00:00.000+01:00"}
+{"dg-publish":true,"permalink":"/aion/esferes/incertesa/recomanacions/","title":"Recomanacions per Operar amb la Incertesa"}
 ---
+
 
 _Consideracions i recomanacions per operar amb la incertesa_
 _Markus Teller & Pedro Torres_
@@ -72,6 +73,6 @@ A partir d’aquestes consideracions i recomanacions, els possibles efectes en r
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Incertesa/incertesa|← Incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/markus|Autoetnografía Markus Teller →]]
+[[AION/Esferes/Incertesa/incertesa\|← Incertesa]] | [[AION/Esferes/Incertesa/Autoetnografies/markus\|Autoetnografía Markus Teller →]]
 
 </div>

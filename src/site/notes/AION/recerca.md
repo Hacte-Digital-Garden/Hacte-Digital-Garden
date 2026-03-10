@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/aion/recerca/","title":"Recerca expandida","created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+{"dg-publish":true,"permalink":"/aion/recerca/","title":"Recerca expandida"}
 ---
+
 
 **Abordatge del concepte de membrana**
 
@@ -258,6 +259,6 @@ se ve entre grietas
 
 <div style="text-align: center;">
 
-[[AION/collaboradores|← Col·laboradores]]
+[[AION/collaboradores\|← Col·laboradores]]
 
 </div>
