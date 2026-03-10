@@ -26,5 +26,3 @@ Per a més informació sobre Hacte i els nostres programes, visiteu [hactebcn.or
 Com a espai exploratori, aquest jardí digital organitza el seu contingut de manera no lineal. Les pàgines es connecten per termes relacionats, pensaments i associacions. Navega-hi de forma lliure i desestructurada, seguint el fil dels teus pensaments i interessos.
 
 Per contribuir a qualsevol pàgina, podeu accedir  al codi a [GitHub](https://github.com/Hacte-Digital-Garden/Hacte-Digital-Garden).
-
-teste obsidian
