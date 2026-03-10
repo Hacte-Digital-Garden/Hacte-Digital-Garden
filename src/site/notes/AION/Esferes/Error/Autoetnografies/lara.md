@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografies/lara/","title":"Autoetnografía Lara Campos"}
+{"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografias/lara/","title":"Autoetnografía Lara Campos","created":"2025-11-17T18:34:20.844+01:00","updated":"2025-12-01T17:03:48.871+01:00"}
 ---
-
 
 Dicen #error y siento confusión. ¿Qué es? Me cuesta identificarlo. Siento simpatía y a la vez algo me dice que no. Veo un guardarrail. Pienso que el error guía mi práctica. Busco su significado:
 
@@ -80,6 +79,6 @@ Andar por caminos que no estaban previstos. Pienso el error como contra-cultura,
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Error/recomanacions\|← Recomanacions per operar amb l'error]] | [[AION/Esferes/Error/Autoetnografies/margherita\|Autoetnografia Margherita Gallano →]]
+[[AION/Esferes/Error/recomanacions|← Recomanacions per operar amb l'error]] | [[AION/Esferes/Error/Autoetnografies/margherita|Autoetnografia Margherita Gallano →]]
 
 </div>

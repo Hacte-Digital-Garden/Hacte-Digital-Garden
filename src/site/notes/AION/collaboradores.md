@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/aion/collaboradores/","title":"Col·laboradores"}
+{"dg-publish":true,"permalink":"/aion/collaboradores/","title":"Col·laboradores","created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
-
 
 <br></br>
 
@@ -37,6 +36,6 @@ La seva pràctica explora la matèria situada, els fluxos de residus, els organi
 
 <div style="text-align: center;">
 
-[[AION/Procés 2025/obrador\|← Obrador]] | [[AION/recerca\|Recerca expandida →]]
+[[AION/Procés 2025/obrador|← Obrador]] | [[AION/recerca|Recerca expandida →]]
 
 </div>

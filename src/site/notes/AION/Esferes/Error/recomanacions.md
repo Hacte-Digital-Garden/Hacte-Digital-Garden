@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/aion/esferes/error/recomanacions/","title":"Recomanacions per operar amb l’error"}
+{"dg-publish":true,"permalink":"/error/recomanacions/","pinned":true,"title":"Recomanacions per operar amb l’error","created":"2026-01-03T00:00:00.000+01:00","updated":"2026-01-03T00:00:00.000+01:00"}
 ---
-
 
 _Consideracions i recomanacions per operar amb l’error_
 _Lara Campos & Margherita Gallano_
@@ -82,6 +81,6 @@ La manera com compartim i vivim l’error en la comunitat on treballem impacta l
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Error/error\|← Error]] | [[AION/Esferes/Error/Autoetnografies/lara\|Autoetnografía Lara Campos →]]
+[[AION/Esferes/Error/error|← Error]] | [[AION/Esferes/Error/Autoetnografies/lara|Autoetnografía Lara Campos →]]
 
 </div>

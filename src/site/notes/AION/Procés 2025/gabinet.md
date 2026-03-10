@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/aion/proces-2025/gabinet/","title":"Gabinet"}
+{"dg-publish":true,"permalink":"/aion/proces/gabinet/","title":"Gabinet","created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
-
 
 El 9 d’octubre de 2025 es va celebrar la primera obertura del programa: el Gabinet col·laboratiu d’incerteses i errors, concebut com un espai d’aprenentatge per navegar col·lectivament els territoris d’aquests dos conceptes a través del seu mapatge, classificació, i observació. Partint de la mateixa experiència investigadora de les persones participants, el taller va aprofundir en les esquerdes que s’obren per a la col·laboració entre disciplines, llenguatges i sensibilitats, partint d’una intuïció comuna: que l’error i la #incertesa no són anomalies, sinó condicions constitutives de la recerca a la frontera entre art i ciència. 
 
@@ -84,6 +83,6 @@ Han participat en aquesta sessió: Markus Teller, Pedro Torres, Lara Campos, Mar
 
 <div style="text-align: center;">
 
-[[AION/Procés 2025/proces-2025\|← Procés 2025]] | [[AION/Procés 2025/laboratori\|Laboratori →]]
+[[AION/Procés 2025/proces-2025|← Procés 2025]] | [[AION/Procés 2025/laboratori|Laboratori →]]
 
 </div>

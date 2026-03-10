@@ -10,7 +10,6 @@
 }
 ---
 
-
 ## Benvingut / Benvinguda al Digital Garden d’HacTe
 
 Aquest és un espai exploratori, dinàmic i embrionari que busca compartir la documentació — present i futura — vinculada als processos, resultats, propostes metodològiques, pràctiques i recomanacions associades a iniciatives promogudes des del Hub d’Art, Ciència i Tecnologia de Barcelona, en l’àmbit de la pràctica i la recerca híbrida entre les arts, les ciències i les tecnologies.
@@ -25,7 +24,7 @@ Per a més informació sobre Hacte i els nostres programes, visiteu [hactebcn.or
 
 **Iniciatives**
 
-[[AION/01-sobre\|AION: membranes interdisciplinàries en la recerca de frontera]]
+[[AION/01-sobre|AION: membranes interdisciplinàries en la recerca de frontera]]
 
 ---
 

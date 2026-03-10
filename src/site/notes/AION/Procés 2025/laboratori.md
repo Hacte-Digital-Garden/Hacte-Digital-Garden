@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/aion/proces-2025/laboratori/","title":"Laboratori"}
+{"dg-publish":true,"permalink":"/aion/proces/laboratori/","title":"Laboratori","created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
 ---
-
 
 El 6 de novembre de 2025, Hangar va acollir la segona obertura del programa, una nova capa conceptual al procés de recerca col·laborativa.
 
@@ -74,6 +73,6 @@ Han participat en aquesta sessió: Markus Teller, Margherita Gallano, Pedro Torr
 
 <div style="text-align: center;">
 
-[[AION/Procés 2025/gabinet\|← Gabinet]] | [[AION/Procés 2025/obrador\|Obrador →]]
+[[AION/Procés 2025/gabinet|← Gabinet]] | [[AION/Procés 2025/obrador|Obrador →]]
 
 </div>
