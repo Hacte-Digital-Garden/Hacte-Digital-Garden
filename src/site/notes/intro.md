@@ -1,5 +1,13 @@
 ---
-{"dg-publish":true,"permalink":"/aion/sobre/","title":"Sobre AION","pinned":true,"created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+{
+    "dg-publish":true,
+    "permalink":"/intro/",
+    "title":"Intro",
+    "pinned":true,
+    "tags":["gardenEntry"],
+    "created":"2025-11-17T16:59:57.392+01:00",
+    "updated":"2025-12-03T12:11:59.412+01:00"
+}
 ---
 
 
