@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/aion/eines-de-treball/","title":"Eines de treball","pinned":true, "created":"2025-11-24T20:33:55.875+01:00","updated":"2025-12-01T17:03:42.902+01:00"}
+{"dg-publish":true,"permalink":"/aion/03-eines/","title":"Eines de treball"}
 ---
+
 
 
 ## Quaderns d’autoetnografia
@@ -43,6 +44,6 @@ Stengers, I. (2015). _In catastrophic times: Resisting the coming barbarism_ (D.
 
 <div style="text-align: center;">
 
-[[AION/02-metodologia|← Metodologia]] | [[AION/04-recomanacions|Recomanacions per la recerca →]]
+[[AION/02-metodologia\|← Metodologia]] | [[AION/04-recomanacions\|Recomanacions per la recerca →]]
 
 </div>

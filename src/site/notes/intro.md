@@ -1,14 +1,7 @@
 ---
-dg-publish: true
-permalink: /intro/
-title: Intro
-pinned: true
-tags:
-  - gardenEntry
-created: 2025-11-17T16:59:57.392+01:00
-updated: 2025-12-03T12:11:59.412+01:00
-nav-order: "1"
+{"dg-publish":true,"permalink":"/intro/","title":"Intro","tags":["gardenEntry"]}
 ---
+
 
 ## Benvingut / Benvinguda al Digital Garden d’HacTe
 
@@ -24,7 +17,7 @@ Per a més informació sobre Hacte i els nostres programes, visiteu [hactebcn.or
 
 **Iniciatives**
 
-[[AION/01-sobre|AION: membranes interdisciplinàries en la recerca de frontera]]
+[[AION/01-sobre\|AION: membranes interdisciplinàries en la recerca de frontera]]
 
 ---
 

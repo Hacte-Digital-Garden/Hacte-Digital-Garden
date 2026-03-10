@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/incertesa/incertesa/","title":"Incertesa","pinned":true,"created":"2026-01-03T00:00:00.000+01:00","updated":"2026-01-03T00:00:00.000+01:00"}
+{"dg-publish":true,"permalink":"/aion/esferes/incertesa/incertesa/","title":"Incertesa"}
 ---
+
 
 La #incertesa és una condició constitutiva de tota interdisciplinarietat –i, per tant, també de la recerca frontera i els ACTS. Allà on les coordenades establertes deixen de ser útils, la incertesa esdevé guia: obre escletxes en els fonaments que sostenen allò que creiem saber i permet que hi entri l'inesperat. És una força que destorba la linealitat de les metodologies i els dissenys tancats i fa possible resultats sofisticats i fecunds que desafien lògiques lineals. La sociòloga de la ciència Helga Nowotny explica com incertesa és un exercici d’intel·ligència tàctica i intuïtiva, propera a la mètis grega, que alimenta l’astúcia, la flexibilitat, el joc i la intuïció en la producció de coneixement racional i instrumental.
 
@@ -10,6 +11,6 @@ A AION, la incertesa ocupa un lloc central com a motor de recerca i creació. En
 
 <div style="text-align: center;">
 
-[[AION/Esferes/Error/n-caleg|← n-Càleg Error]] | [[AION/Esferes/Incertesa/recomanacions|Recomanacions per operar amb la incertesa →]]
+[[AION/Esferes/Error/n-caleg\|← n-Càleg Error]] | [[AION/Esferes/Incertesa/recomanacions\|Recomanacions per operar amb la incertesa →]]
 
 </div>
