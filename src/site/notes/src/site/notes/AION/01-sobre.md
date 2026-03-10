@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/src/site/notes/aion/01-sobre/","title":"Sobre AION"}
+{"dg-publish":true,"permalink":"/src/site/notes/aion/01-sobre/","title":"Sobre AION","tags":["gardenEntry"]}
 ---
 
 
