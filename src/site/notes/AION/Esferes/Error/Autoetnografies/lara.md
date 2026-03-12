@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/aion/esferes/error/autoetnografias/lara/","title":"Autoetnografía Lara Campos","created":"2025-11-17T18:34:20.844+01:00","updated":"2025-12-01T17:03:48.871+01:00"}
 ---
 
-Dicen #error y siento confusión. ¿Qué es? Me cuesta identificarlo. Siento simpatía y a la vez algo me dice que no. Veo un guardarrail. Pienso que el error guía mi práctica. Busco su significado:
+Dicen [[AION/Esferes/Error/error|error]] y siento confusión. ¿Qué es? Me cuesta identificarlo. Siento simpatía y a la vez algo me dice que no. Veo un guardarrail. Pienso que el #error guía mi práctica. Busco su significado:
 
 <center><em>barrera de protección también llamada quitamiedos</em></center>
 

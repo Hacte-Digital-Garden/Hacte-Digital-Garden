@@ -56,7 +56,7 @@ Creiem també que, en les pràctiques de frontera entre art i ciència, en què 
 - Errocidi
 - Errògama (monoerrògama, polierrògama, etc.)
 - Errografia
-- Erroteca (enllaç a un arxiu d’imatges i projectes errants)
+- Erroteca
 - Errologia – errolog/a/e
 - Errorística/o
 - Erroritis
@@ -75,7 +75,7 @@ La manera com compartim i vivim l’error en la comunitat on treballem impacta l
 - Com et sents?
 - Com continues?
 
-5. Observa. Com es manifesta el teu error? Afegeix la imatge/dibuix/esquema creat a l'Erroteca. Pots acompanyar la imatge amb alguna referència textual.
+5. Observa. Com es manifesta el teu error? Pots acompanyar la imatge amb alguna referència textual.
 
 ---
 
