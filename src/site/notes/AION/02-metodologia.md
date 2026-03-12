@@ -16,7 +16,7 @@ En tant que procés de recerca col·laborativa i experimental, AION s’ha guiat
 
 5. **Explorar l’interregne que habitem**, on les coordenades que utilitzàvem per orientar-nos comencen a deixar de ser útils.
 
-6. Produir **recomanacions** sobre com investigar amb la [[AION/Esferes/Incertesa/recomanacions|incertesa]], i un altre sobre com investigar amb l’ [[AION/Esferes/Error/recomanacions|error]], a tall de resum, recomanacions i conclusions del procés.
+6. Produir **recomanacions** sobre com investigar amb la [[AION/Esferes/Incertesa/recomanacions|incertesa]], i un altre sobre com investigar amb l’[[AION/Esferes/Error/recomanacions|error]], a tall de resum, recomanacions i conclusions del procés.
 
 La recerca s’ha articulat a través de diferents nivells. Les artistes i científiques convidades a treballar en tàndems han dut a terme recerca a escala individual, en parelles, amb l’altre tàndem, amb les persones que han participat en els moments d’obertura de procés i amb l’equip d’HacTe que ha acompanyat la recerca. 
 
