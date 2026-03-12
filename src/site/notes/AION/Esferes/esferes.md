@@ -14,8 +14,8 @@ Investigar és una acció que està sempre en relació: amb infraestructures, fl
 AION explora com algunes esferes, definides i situades, intangibles a priori, però amb efectes materials molt concrets, performen -això és, són coses que fan coses-, en els processos de recerca transdisciplinària.
 
 
-- [[AION/esferes/error/error|Error]]
-- [[AION/esferes/incertesa/incertesa|Incertesa]]
+- [[AION/Esferes/Error/error|Error]]
+- [[AION/Esferes/Incertesa/incertesa|Incertesa]]
 
 ---
 

@@ -5,7 +5,7 @@
 ![imagem](../../../img/16_9-ca.png)
 
 
-_Aion (del grec aiṓn, ‘eternitat, existència’) és una deïtat hel·lenística, considerada déu suprem i imparcial del temps etern i de la prosperitat, sense començament ni final: l’esdevenir còsmic i les grans transformacions universals. Designa un temps qualitatiu, transcendental i infinit, en contrast amb Chronos, vinculat al temps lineal i quantificable._
+*Aion (del grec aiṓn, ‘eternitat, existència’) és una deïtat hel·lenística, considerada déu suprem i imparcial del temps etern i de la prosperitat, sense començament ni final: l’esdevenir còsmic i les grans transformacions universals. Designa un temps qualitatiu, transcendental i infinit, en contrast amb Chronos, vinculat al temps lineal i quantificable.*
 
 ![imagem](../../img/aion-deity.png){style="display: block; margin: 0 auto; width: 100px;"}
 

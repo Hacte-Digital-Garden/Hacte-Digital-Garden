@@ -30,7 +30,6 @@ En paral·lel, es va treballar en el bolcat “en viu” del material processual
   <img src="../../../img/obrador-13.jpg" alt="Obrador 13" onclick="openLightbox(12)">
   <img src="../../../img/obrador-14.jpg" alt="Obrador 14" onclick="openLightbox(13)">
   <img src="../../../img/obrador-15.jpg" alt="Obrador 15" onclick="openLightbox(14)">
-
 </div>
 
 <div id="lightbox" class="lightbox" onclick="closeLightbox()">
